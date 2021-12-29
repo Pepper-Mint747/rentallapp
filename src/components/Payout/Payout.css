@@ -1,0 +1,137 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+@import '../../components/helpers.css';
+ .noBorder {
+	border: 0px none !important;
+}
+.rowBorder {
+	border-bottom: 1px solid #dce0e0;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 18px;
+	border-bottom: 1px solid #dce0e0;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.titleText {
+	margin: 0px 0px 18px 0px;
+	font-size: 22px;
+}
+.panelBody {
+	margin: 0;
+	position: relative;
+}
+.payoutIntro {
+	font-size: 14px;
+	color: #484848;
+	line-height: 1.43;
+}
+.textTruncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.sectionTitleLight {
+	color: #484848;
+	font-size: 14px;
+}
+.textMuted {
+	color: #767676;
+}
+.labelText {
+	font-size: 14px;
+	color: #767676;
+	font-weight: normal;
+}
+.textSpace {
+	margin-left: 10px;
+	color: var(--btn-primary-bg);
+}
+.textSpace:hover {
+	color: var(--btn-primary-bg);
+}
+.radioText {
+	font-size: 14px;
+	color: #484848;
+	font-weight: normal;
+	display: inline;
+	padding-right: 5px;
+}
+.formControlSelect {
+	padding: 8px 8px 10px 10px !important;
+	display: block;
+	background-position: 99% 7px !important;
+}
+.formControlInput {
+	display: block;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+/*************************Panel Styles End******************************************/
+
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+	text-decoration: none;
+}
+.miniDivider {
+	width: 0;
+	border-left: 2px solid #dce0e0;
+	height: 1em;
+	margin: 0 15px;
+}
+.btnRight {
+	margin-right: 10px;
+}
+.displayInline {
+	display: inline-block;
+}
+.displayFlex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.responsiveTextAlign {
+	text-align: right;
+}
+.selectFormControl {
+	padding: 8px 32px 10px 10px !important;
+}
+.infoBox {
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #767676;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+}
+.transparentText {
+	color: transparent !important;
+}
+@media (max-width: 991px) {
+	.responsiveTextAlign {
+		text-align: left;
+	}
+}
+@media screen and (max-width: 767px) {
+	.textMuted {
+		display: block;
+		padding-top: 5px;
+  }
+  .responsivePadding {
+		padding: 0px !important;
+	}
+}

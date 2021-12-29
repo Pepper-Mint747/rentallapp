@@ -1,0 +1,20 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/** Common Styles  start**/
+.landingLabel {
+	font-size: 16px;
+	color: #767676;
+	font-weight: normal;
+}
+.titleText {
+	font-size: 18px;
+	color: #767676;
+}
+.blockRadioButton {
+	position: relative;
+	height: 1.25em;
+	width: 1.25em;
+	margin-right: 10px!important;
+	vertical-align: text-bottom;
+}
+/** Common Styles  start**/

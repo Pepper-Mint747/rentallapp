@@ -1,0 +1,6 @@
+@import '../../../components/variables.css';
+.titleText {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 700;
+}

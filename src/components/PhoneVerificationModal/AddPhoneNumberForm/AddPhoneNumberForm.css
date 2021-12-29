@@ -1,0 +1,29 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../../helpers.css';
+/** RentAll - Begin **/
+.formGroup {
+	margin-bottom: 15px !important;
+}
+.select {
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+.labelText {
+	font-size: 15px;
+	color: #767676;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: normal;
+}
+.formGroup .input-group-addon,
+.inputGroupAddon {
+	border: 1px solid #dce0e0;
+}
+.formContainer {
+	border: 1px solid #dce0e0;
+	padding: 15px;
+	border-radius: 2px;
+}

@@ -1,0 +1,66 @@
+@import '../../components/helpers.css';
+.spaceRight1 {
+	margin-right: 6px;
+}
+.spaceRight2 {
+	margin-right: 12px;
+}
+.spaceRight3 {
+	margin-right: 18px;
+}
+.spaceRight4 {
+	margin-right: 24px;
+}
+.spaceRight5 {
+	margin-right: 48px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.listContainer {
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.listContainer .panelBody:first-child {
+	padding-top: 0px;
+}
+.listContainer .panelBody:last-child {
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+.sideNavitem {
+	display: block;
+	padding: 8px 0;
+	font-size: 16px;
+	color: #767676;
+}
+.sideNavitem:hover,
+.sideNavitem:active,
+.sideNavitem:focus {
+	text-decoration: none;
+	color: #484848;
+}
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: #484848;
+}
+@media screen and (max-width: 768px) {
+	.smPadding {
+		padding: 0px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.smButton {
+		width: 100%
+	}
+}
+@media screen and (max-width: 1199px) {
+	.sideMenuBtn {
+		overflow: hidden;
+		word-break: break-word;
+		white-space: normal;
+	}
+}

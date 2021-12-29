@@ -1,0 +1,190 @@
+@import '../admin-common.css';
+/** Dashboard - Start **/
+.userBox{
+    min-height: 200px;
+    padding: 25px 20px 20px;
+    border-radius: 5px;
+    background: linear-gradient(123deg, rgba(255,88,86,1) 0%, rgba(249,30,136,1) 100%);
+    box-shadow: -1px 7px 26px -1px #eeedef;
+}
+.userImg img{
+	width: 80px;
+	height: 80px;
+}
+.userContent h2{
+    font-size: 16px;
+    margin: 0;
+}
+.userContent div{
+	font-size: 34px;
+    color: #fff;
+    font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: 3px;
+}
+.userImg{
+	width: 40%;
+	vertical-align: top;
+    text-align: center;
+}
+.userContent{
+	width:60%;
+	text-align: center;
+	color: #fff;
+	padding-top: 8px;
+}
+.graph{
+	margin-top: 25px;
+}
+.graph img{
+	width: 100%;
+}
+.lastedBox{
+	background: linear-gradient(123deg, rgba(255,207,27,1) 0%, rgba(255,136,24,1) 100%);
+	box-shadow: -1px 7px 26px -1px #eeedef;
+}
+.motheBox{
+	background: linear-gradient(123deg, rgba(15,196,226,1) 0%, rgba(100,84,240,1) 100%);
+}
+.motheListing{
+	background: #fff;
+	padding: 20px 30px;
+	border-radius: 5px;
+	min-height: 150px;
+}
+.listingImg img{
+	width:70px;
+}
+.listingImg{
+	vertical-align: top;
+}
+.listingContent{
+	padding-left: 20px;
+	padding-top: 5px;
+	width: 66%;
+}
+.listingContent h2{
+	font-size: 16px;
+    margin: 0;
+}
+.listingContent div{
+	font-size: 34px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+.hourListing{
+	margin-top: 25px;
+}
+.listingSectionMain{
+	margin-top: 35px;
+}
+.reservationIcon img{
+    width: 35px;
+}
+.totalReservation{
+	background: #fff;
+	position: relative;
+	box-shadow: -1px 7px 26px -1px #eeedef;
+}
+.reservationHeader{
+	font-size: 16px;
+    padding: 25px 5px;
+	text-align: center;
+	box-shadow: -1px 7px 26px -1px #eeedef;
+}
+.reservationContent{
+	padding-left: 5px;
+}
+.reservationBottom{
+	min-height: 165px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 34px;
+	letter-spacing: 2px;
+	position: relative;
+	z-index: 2;
+	color: #000FD4;
+}
+.reservationCircle{
+	width: 200px;
+    height: 100px;
+    background-color: #EEF9FF;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	bottom: 0px;
+	margin: 0 auto;
+	z-index: 1;
+}
+.reservation24{
+	color: #D400AF;
+}
+.reservationCircle24{
+	background-color: #FFF1FD;
+}
+.reservation30{
+	color: #FF7709;
+}
+.reservationCircle30{
+	background-color: #FFFED3;
+}
+.bgColor{
+	background: #f3f3f3;
+}
+.displayInline {
+	display: inline-block;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+	.displayBlock {
+		display: block;
+	}
+	.motheListing {
+		padding: 20px 15px;
+		text-align: center;
+		min-height: 200px;
+	}
+	.listingContent {
+		padding-left: 0px;
+		padding-top: 8px;
+		width: 100%;
+	}
+	.totalReservation {
+		min-height: 300px;
+	}
+}
+@media (max-width:1199px) and (min-width:1024px) {
+	.motheListing {
+		min-height: auto;
+	}
+	.reservationHeader {
+		max-height: 123px;
+		min-height: 123px;
+	}
+	.userContent {
+		padding-left: 8px;
+	}
+}
+@media (max-width: 991px) {
+	.userBox {
+		margin-bottom: 20px;
+	}
+	 .totalReservation {
+		margin-bottom: 20px;
+	}
+	.mobileMargin {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		width:100%;
+	}
+    .listingContent{
+	    width:60%;
+    }
+}

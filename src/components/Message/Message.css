@@ -1,0 +1,9 @@
+@import '../variables.css';
+.notification{
+  fill: var(--btn-secondary-bg);
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(4px, -8px, 0);
+}

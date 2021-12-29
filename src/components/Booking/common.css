@@ -1,0 +1,28 @@
+@import '../helpers.css';
+@import '../variables.css';
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: var(--btn-primary-bg);
+  color: #484848;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--btn-primary-bg);
+}
+.noMargin {
+  margin: 0px;
+}
+.noBorder {
+  border: 0px none !important;
+}

@@ -1,0 +1,37 @@
+@import '../common.css';
+@import '../../variables.css';
+ .sectionCaptionLink {
+	font-size: 14px;
+	color: var(--btn-secondary-bg);
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: none;
+}
+.sectionCaptionLink:hover,
+.sectionCaptionLink:active,
+.sectionCaptionLink:focus {
+	color: var(--btn-secondary-bg);
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: none;
+}
+.imgSection {
+	width: 100%;
+	max-width: 28px;
+	max-height: 28px;
+	height: auto;
+}
+.listIcon {
+	display: inline-block;
+	width: 30px;
+	vertical-align: top;
+	margin-right: 6px;
+}
+.listContent {
+	display: inline-block;
+	width: 85%;
+	vertical-align: middle;
+}
+.lineBreak {
+	white-space: pre-line;
+}

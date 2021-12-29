@@ -1,0 +1,129 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/*************************Sidenavigation Styles start******************************************/
+.listContainer {
+	padding-left: 0px;
+	list-style-type: none;
+}
+/*************************Sidenavigation Styles end******************************************/
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+	box-shadow: none;
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+.noPadding {
+	padding: 0;
+}
+.noBorder {
+	border: 0px none !important;
+}
+.listLayout {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.currencyColor {
+	color: #3fb34f;
+}
+.labelText {
+	font-size: 14px;
+	color: #484848;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.formControlSelect {
+	width: 100%;
+	padding-right: 2em !important;
+	display: block;
+	overflow: hidden;
+	appearance: none;
+	background-position: 99% 7px;
+}
+.formWidth {
+	min-width: 100px;
+	max-width: 200px;
+}
+.select {
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	margin-right: 15px;
+}
+.pagintaion {
+	text-align: center;
+}
+.labelText {
+	font-size: 14px;
+	color: #484848;
+	font-weight: normal;
+}
+.rowBorder {
+	border-bottom: 1px solid #dce0e0;
+}
+.tabItem {
+	display: block;
+	padding: 20px 15px 14px 8px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	color: #767676;
+	cursor: pointer;
+	border-bottom: 3px solid transparent;
+}
+.tabItem:hover {
+	text-decoration: none;
+	color: #484848;
+}
+.active .tabItem {
+	color: var(--btn-secondary-bg);
+	border-color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+.noMargin {
+	margin: 0px;
+}
+.csvExport {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+    margin-top: 14px;
+}
+@media screen and (max-width: 991px) {
+	.csvExport {
+		display: block;
+		float: none;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.mobileWidth {
+		width: 100% !important;
+	}
+	.select {
+		margin-right: 0px;
+		width: 100%;
+	}
+	.formWidth {
+		width: 100%;
+		min-width: 100%;
+        max-width: 100%;
+	}
+	.minWidthMobile{
+		min-width: 130px;
+	}
+}

@@ -1,0 +1,10 @@
+{
+    getCurrencies(requestedFrom:"siteadmin") {
+        id
+        symbol
+        isEnable
+        isPayment
+        isBaseCurrency
+        status
+    }
+}

@@ -1,0 +1,93 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/*************************verification Styles start******************************************/
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+	background: #f5f5f5;
+}
+.listLayout {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+	color: #484848;
+}
+.description {
+	font-size: 14px;
+	line-height: 1.43;
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+.button {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  white-space: normal;
+  text-align: center;
+  border: 1px solid;
+  text-decoration: none !important;
+}
+.btnverified {
+	border-color: green;
+	background-color: #fff;
+	color: green;
+}
+.btnverified:hover,
+.btnverified:focus,
+.btnverified:active,
+.btnverified:active:hover,
+.btnverified:active:focus {
+	border-color: green !important;
+	color: green;
+	background-color: #fff;
+}
+.background {
+	padding: 15px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid #dce0e0;
+}
+.displayFlex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.centerFlex {
+	display: inline-flex;
+	justify-content: center;
+}
+.iconImages {
+	height: 70px;
+}
+.iconImageone {
+	height: 50px;
+}
+.inlineFlex {
+	display: inline-flex;
+	justify-content: center;
+}
+@media screen and (max-width:767px) {
+	.responsiveCenter {
+		text-align: center;
+	}
+	.responsiveFlex {
+		display: inline-flex;
+		justify-content: center;
+		margin-bottom: 8px;
+	}
+}
+/*************************verification Styles end******************************************/

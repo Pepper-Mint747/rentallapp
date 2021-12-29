@@ -1,0 +1,188 @@
+@import '../variables.css';
+@import '../helpers.css';
+ .root {
+	background: #ffffff;
+	color: #333;
+	padding: 0px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: var(--max-container-width);
+	border-top: 1px solid #dce0e0;
+}
+.footerSectionContainer {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	position: relative;
+	padding: 48px 0px;
+	display: block;
+	line-height: 1.43;
+	font-size: 14px;
+}
+.shareIcon {
+	color: #767676;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	float: right;
+	font-size: 15px;
+	cursor: pointer;
+}
+.shareIcon:hover,
+.shareIcon:hover:focus .shareIcon:hover:focus {
+	color: #767676;
+}
+.textLink {
+	color: #767676;
+	font-weight: normal;
+	padding: 0px 0px;
+	margin: 0px;
+	line-height: 1.1;
+	cursor: pointer;
+}
+.textLink:hover,
+.textLink:focus,
+.textLink:hover:focus {
+	color: #767676;
+}
+.listContainer {
+	padding: 0px;
+	margin-top: 16px;
+	list-style-type: none;
+}
+.landingLabel {
+	color: #484848;
+	font-size: 15px;
+	font-weight: 700;
+	display: block;
+	line-height: 18px;
+}
+.andriodIcon {
+	margin: 38px 0 0;
+	position: relative;
+}
+.andriodIcon img {
+	width: auto;
+	max-height: 45px;
+}
+.iosIcon {
+	margin: 38px 0 0;
+}
+.iosIcon img {
+	width: auto;
+	max-height: 47px;
+	margin: -2px 0 0 -31px;
+}
+.topImageBanner {
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+}
+.positionRelative {
+	position: relative;
+}
+.displayInlineBlock {
+	display: inline-block;
+}
+.anroidImg {
+	width: 100%;
+	max-width: 100px;
+}
+.iosImg {
+	width: 100%;
+	max-width: 110px;
+	margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+	.xsHidden {
+		display: none;
+	}
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.footerSectionContainer {
+		max-width: 960px;
+	}
+	.iosIcon img {
+		width: auto;
+		max-height: 46px;
+		margin: -2px 0 0 -11px;
+	}
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.iosImg {
+		max-width: 95px;
+		margin-left: 15px;
+		margin-top: 0px;
+	}
+	.anroidImg {
+		max-width: 86px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.iosImg {
+		width: 100%;
+		max-width: 73px;
+		margin-left: 3px;
+		margin-top: 0px;
+	}
+	.anroidImg {
+		max-width: 67px;
+	}
+	.copyRightTabNoMargin {
+		margin: 30px 0px 0px 0px;
+	}
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+	.container {
+		max-width: 100%;
+		padding: 0 23px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.iosIcon img {
+		width: auto;
+		max-height: 47px;
+		margin: -2px 0 0 -15px;
+	}
+}
+@media (max-width: 767px) {
+	.iosIcon img {
+		width: auto;
+		max-height: 48px;
+		margin: -2px 0 0 0px;
+	}
+	.allPaddingMobile {
+		padding: 0 20px;
+	}
+	.iosIcon {
+		margin: 33px 0 0;
+	}
+	.andriodIcon {
+		margin: 33px 0 0;
+	}
+	.copyrightSection {
+		padding: 0px 15px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.responsivePadding {
+		padding: 0px 15px !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.responsiveMargin {
+		margin-bottom: 12px !important;
+	}
+	.anroidImg {
+		max-width: 130px;
+	}
+	.iosImg {
+		max-width: 141px;
+	}
+	.noPaddingMobile {
+		padding: 0px;
+	}
+}

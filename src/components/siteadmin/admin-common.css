@@ -1,0 +1,231 @@
+@import '../variables.css';
+@import './newcommonstyle.css';
+
+/** Admin - Common - Start **/
+.pagecontentWrapper {
+	margin-left: 270px;
+	position: relative;
+	background: #fff;
+	padding: 80px 25px;
+}
+.headerTitle {
+	font-size: 24px;
+	margin: 0px 0px 15px;
+	padding-bottom: 10px;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #dce0e0;
+}
+.table {
+	display: table;
+}
+.tableRow {
+	display: table-row;
+}
+.tableCell {
+	display: table-cell;
+	float: none;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.select {
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+.noMargin {
+	margin: 0px;
+}
+a,
+a:hover {
+	cursor: pointer;
+}
+.exportLink {
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.labelTextNew {
+	font-weight: 700;
+	color: #484848;
+	font-size: 14px;
+	margin: 6px 0px;
+	line-height: 1.43;
+}
+.displayInline {
+	display: inline-block;
+}
+/******************* Admin Modal ListSetting Start *******************/
+
+.btnUPdate {
+	display: inline-block;
+}
+.btnModalDelete {
+	display: inline-block;
+	margin-left: 15px;
+}
+.radioBtn {
+	position: relative;
+	top: 1px;
+	vertical-align: middle;
+}
+@media screen and (max-width: 767px) {
+	.btnUPdate {
+		display: block;
+		margin-bottom: 12px;
+	}
+	.btnModalDelete {
+		display: block;
+		margin-left: 0px;
+	}
+	.btnWidth {
+		width: 100%;
+	}
+}
+/******************* Admin Modal ListSetting Start *******************/
+
+/******************* Admin Banner Image Section Start ****************/
+
+.bannerImageBg {
+	width: 100%;
+	height: 100%;
+	padding-top: 70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: relative;
+	border-radius: 4px;
+}
+.bannerDelete {
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+/*******************Admin Modal Start **********************/
+
+.modalRoot {
+	padding: 32px;
+}
+.modalBorderBottom {
+	border-bottom: 5px solid var(--btn-primary-bg);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.logInModalBody {
+	padding: 0px;
+}
+/*************** Admin TableNew Design Start**************************/
+
+.exportSection {
+	background: #f5f5f5;
+	padding: 24px 15px;
+	display: grid;
+	grid-template-columns: 28% 15% 55%;
+	align-items: center;
+	grid-gap: 11px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border: 1px solid #dce0e0;
+	border-bottom: 0;
+}
+.exportSectionGridSub {
+	grid-template-columns: 50% 49% !important;
+}
+.exportText {
+	color: #484848 !important;
+	text-decoration: none !important;
+	display: inline-block;
+	float: right;
+}
+.exportLinkImg {
+	background: #fff;
+	padding: 10px;
+	margin-left: 12px;
+	border-radius: 4px;
+}
+.vtrMiddle {
+	vertical-align: middle;
+}
+.exportImg {
+	width: 100%;
+	max-width: 16px;
+	vertical-align: middle;
+}
+.profileViewlabel {
+	display: inline-block;
+	width: 38%
+}
+.profileViewMainContent {
+	display: inline-block;
+	width: 62%;
+}
+.profileViewMain {
+	border: 1px solid #dedede;
+	border-radius: 6px;
+}
+.profileViewInner {
+	padding: 10px;
+	border-bottom: 1px solid #dedede;
+}
+.profileImageSection {
+	width: 100%;
+	height: auto;
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 50%;
+}
+.lastviewInner {
+	padding: 10px;
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+	.pagecontentWrapper {
+		padding: 100px 25px;
+        height: 100vh;
+        overflow: auto;
+	}
+}
+@media screen and (max-width: 991px) {
+	.exportSection {
+		grid-template-columns: 100%;
+	}
+	.exportText {
+		float: none;
+		margin-top: 12px;
+	}
+	.exportSectionGridSub {
+		grid-template-columns: 100% !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.profileViewlabel {
+		width: 100%;
+		margin-bottom: 6px;
+		text-align: center;
+	}
+	.profileViewMainContent {
+		width: 100%;
+		text-align: center;
+	}
+}
+/*************** Admin TableNew Design End**************************/
+
+@media (max-width: 767px) {
+	.pagecontentWrapper {
+		margin-left: 0;
+	}
+}
+
+.ChangeToUpperCase{
+    text-transform: uppercase
+}
+.noBorder {
+	border: 0px !important;
+}
+/** Admin - Common - End **/

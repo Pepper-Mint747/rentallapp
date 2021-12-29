@@ -1,0 +1,38 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .root {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	max-width: 700px;
+}
+.textJumbo {
+	font-size: 95px;
+	font-weight: bold;
+	margin: 0;
+}
+.textMedium {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+}
+.textCenter {
+	text-align: center;
+}
+.subTitle {
+	font-size: 22px;
+	color: #484848;
+	margin-left: 10px;
+}
+a,
+a:hover {
+	color: #008489;
+}
+.subText {
+	font-size: 22px !important;
+	line-height: normal;
+	margin-top: 36px;
+}

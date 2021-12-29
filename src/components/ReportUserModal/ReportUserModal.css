@@ -1,0 +1,24 @@
+@import '../../components/variables.css';
+/** RentAll - Begin **/
+.logInModalContainer {
+  max-width: 450px;
+  width: 100%;
+    padding: 10px;
+}
+.logInModalBody {
+  padding: 20px;
+}
+.panelHeader{
+  color: #484848;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dce0e0;
+    background: #edefed;
+    text-align: center !important;
+}
+@media screen and (max-width: 767px){
+  .logInModalContainer{
+    margin: 0px auto;
+  }
+}

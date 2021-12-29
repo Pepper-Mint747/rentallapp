@@ -1,0 +1,42 @@
+@import '../variables.css';
+@import '../helpers.css';
+ .panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0;
+	border-bottom: 1px solid #dce0e0;
+}
+.panelBody {
+	font-size: 14px;
+	color: inherit;
+}
+.circleIcon {
+	font-size: 24px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	color: #767676;
+	display: block;
+}
+.listStyle {
+	padding-left: 0;
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #484848;
+}
+.colMiddle {
+	float: none;
+	display: table-cell;
+	vertical-align: top;
+}
+.doneIcon {
+	width: 22px;
+}
+.doneIcon img {
+	margin-right: 6px;
+    vertical-align: top;
+}

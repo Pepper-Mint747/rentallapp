@@ -1,0 +1,13 @@
+@import '../../components/variables.css';
+@import '../../helpers.css';
+.textCenter {
+	text-align: center;
+}
+.textMuted {
+	font-size: 16px;
+	color: #767676;
+}
+.textLead {
+	color: #484848;
+	line-height: 1.1;
+}

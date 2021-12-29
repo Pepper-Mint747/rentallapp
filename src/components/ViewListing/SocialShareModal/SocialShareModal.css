@@ -1,0 +1,96 @@
+@import '../../../components/variables.css';
+ .root {
+	padding: 20px 32px 32px 32px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+}
+/** RentAll - Begin **/
+.signupModalContainer {
+	max-width: 376px;
+}
+.signupModalBody {
+	padding: 0px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.formSection {
+	overflow: hidden;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	color: var(--btn-secondary-bg);
+}
+.captionText {
+	font-size: 16px;
+	color: #484848;
+	margin: 15px 0px;
+}
+.noPadding {
+	padding: 0px;
+}
+.noMargin {
+	margin: 0px;
+}
+.textAlignRight {
+	text-align: right;
+}
+.textAlignLeft {
+	text-align: left;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.iconPosition {
+	display: inline-block;
+	margin: -2px 8px 0 0;
+}
+/** custom **/
+.marginBottom24 {
+	margin-bottom: 24px !important;
+}
+.share {
+	font-size: 24px !important;
+	font-weight: 800 !important;
+	padding-bottom: 10px;
+}
+.content {
+	font-size: 16px !important;
+}
+.paddingbottom24 {
+	padding-bottom: 24px;
+}
+.socialIcons {
+	color: #484848 !important;
+	font-size: 24px !important;
+	margin-right: 15px;
+	display: inline-block;
+}
+.customClose {
+	padding: 0px;
+	border: 1px solid black;
+	text-align: center;
+	height: 35px;
+	width: 35px;
+	background-color: #bbb;
+	border-radius: 50%;
+}
+.marginleftM5 {
+	margin-left: -5px;
+}
+.borderradiusNone {
+	border-radius: 0px !important;
+}
+.mainBorder {
+	border-bottom: 1px solid #dedede;
+    margin-bottom: 18px;
+}
+@media screen and (max-width: 640px) {
+	.smSpace {
+		margin-bottom: 12px;
+	}
+}

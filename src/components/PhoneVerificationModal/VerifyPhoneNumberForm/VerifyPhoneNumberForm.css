@@ -1,0 +1,41 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../../helpers.css';
+/** RentAll - Begin **/
+.formGroup {
+	margin-bottom: 15px !important;
+}
+.labelText {
+	font-size: 15px;
+	color: #767676;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: normal;
+}
+.modalCaptionLink {
+	color: var(--btn-secondary-bg);
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+}
+.formGroup .input-group-addon,
+.inputGroupAddon {
+	border: 1px solid #dce0e0;
+}
+.formContainer {
+	border: 1px solid #dce0e0;
+	padding: 15px;
+	border-radius: 2px;
+}
+.marginRight {
+	margin-right: 15px;
+}
+.btnContainer {
+	display: inline-block;
+}

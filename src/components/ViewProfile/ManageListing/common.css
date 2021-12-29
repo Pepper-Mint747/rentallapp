@@ -1,0 +1,24 @@
+@import '../../helpers.css';
+.spaceRight1 {
+  margin-right: 6px;
+}
+.spaceRight2 {
+  margin-right: 12px;
+}
+.spaceRight3 {
+  margin-right: 18px;
+}
+.spaceRight4 {
+  margin-right: 24px;
+}
+.spaceRight5 {
+  margin-right: 48px;
+}
+.formGroup {
+  margin-bottom: 6px;
+}
+@media screen and (max-width: 640px){
+  .smButton{
+    width: 100%
+  }
+}

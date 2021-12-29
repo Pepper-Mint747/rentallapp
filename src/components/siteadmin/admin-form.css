@@ -1,0 +1,28 @@
+@import '../variables.css';
+@import '../utils.css';
+.panelHeader{
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #dce0e0;
+}
+.formGroup {
+  margin-bottom: 6px;
+}
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.labelText{
+	font-size: 14px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+  vertical-align: middle;
+}

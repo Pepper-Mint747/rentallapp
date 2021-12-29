@@ -1,0 +1,145 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .Container {
+	min-height: 700px;
+	position: relative;
+}
+.containerResponsive {
+	max-width: var(--max-content-width);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.landingContainer {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+}
+.noBorder {
+	border: 0px none !important;
+}
+a,
+a:hover {
+	color: var(--btn-primary-bg);
+}
+.textBold {
+	font-weight: bold;
+	color: #484848;
+}
+.titleText {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0px;
+	margin-bottom: 6px;
+	color: #484848;
+}
+.titleText:hover,
+.titleText:active,
+.titleText.focus {
+	color: #484848;
+	text-decoration: none;
+}
+.textMuted,
+.textMuted:hover,
+.textMuted:focus,
+.textMuted:hover:focus {
+	color: #767676;
+	text-decoration: none;
+	font-size: inherit;
+}
+.cardPanel {
+	background-color: #fff;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.rowTable {
+	display: table;
+	table-layout: fixed;
+	width: calc(100% + 25px);
+}
+.dateRange {
+	position: relative;
+}
+/** Common **/
+/** Home slider Item - Start **/
+.imgContainer {
+	position: relative;
+	width: 100%;
+}
+.parent {
+	background: #d8d8d8 none repeat scroll 0 0;
+	padding-top: 56.6667%;
+	position: relative;
+}
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.profileAvatarSection {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.profileAvatar {
+	height: 75px;
+	width: 75px;
+}
+.starReview {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.showSm {
+	display: none;
+}
+.textWidth {
+	word-break: break-word;
+}
+.tableWidth {
+	width: 36%;
+}
+@media screen and (max-width: 768px) {
+	.textCenter {
+		text-align: center;
+	}
+	.showSm {
+		display: block;
+	}
+	.hideSm {
+		display: none;
+	}
+}
+@media screen and (max-width: 991px) {
+	.tableWidth {
+		width: 50%;
+	}
+}

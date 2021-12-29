@@ -1,0 +1,13 @@
+@import '../../../../components/common.css';
+.checkboxSection {
+    width: 2%;
+    padding-right: 10px;
+}
+.NHtype{
+    padding: 3px 0 0;
+    vertical-align: top;
+}
+.NhName{
+    padding: 0 0 0 10px;
+    vertical-align: bottom !important;
+}

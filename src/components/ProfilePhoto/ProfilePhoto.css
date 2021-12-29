@@ -1,0 +1,74 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/*-----------------------Common Styles Start----------------------------- */
+.button {
+	max-width: 250px;
+	border: 1px solid;
+}
+.fullWidth {
+	width: 100%;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+}
+/*-----------------------Common Styles End----------------------------- */
+.picContainer {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	background: #f0f0f0;
+	padding: 15px 0px;
+}
+.profilePic {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+}
+.picRound {
+	border-radius: 50%;
+	border: 0px;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.trashIcon {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	width: 22px;
+	height: 22px;
+	background: #000;
+	padding-top: 3px;
+	border: 0;
+	border-radius: 2px;
+	opacity: .9;
+	color: #fff;
+	cursor: pointer;
+}
+.textMuted {
+	font-size: 15px;
+	line-height: 1.43;
+	color: #484848;
+}
+/*---------------------------Sidebar styles start-----------------*/
+a:hover {
+	text-decoration: none;
+	color: #484848;
+}
+@media(max-width:767px) {
+	.centerFlex {
+		display: flex;
+		justify-content: center;
+	}
+}
+/*---------------------------Sidebar styles end-----------------*/

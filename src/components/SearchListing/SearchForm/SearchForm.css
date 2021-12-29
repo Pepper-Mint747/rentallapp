@@ -1,0 +1,180 @@
+@import '../../helpers.css';
+/** Common **/
+.btnBlock {
+	width: 100%;
+	position: relative;
+	white-space: normal;
+	display: block;
+}
+.fullWidth {
+	width: 100%;
+}
+.noPadding {
+	padding: 0px;
+}
+.pullRight {
+	float: right;
+}
+.pullLeft {
+	float: left;
+}
+.spaceLeft1 {
+	margin-left: 5px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.select {
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.blockRadioButton {
+	margin-top: 0;
+	max-width: 320px;
+}
+.formSection {
+	overflow: hidden;
+}
+.instantIcon {
+	color: #ffb400;
+	position: relative;
+}
+.checkBoxLabel {
+	display: table;
+	width: 100%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	vertical-align: middle;
+}
+.checkBoxLabelPanel {
+	cursor: pointer;
+	border: 1px solid #dce0e0;
+	padding-left: 7px;
+	color: #767676;
+}
+.checkBoxLabelCell {
+	display: table-cell;
+	width: 99%;
+}
+.checkBoxLabelCellIcon {
+	width: 1%;
+	padding-right: 5px;
+	font-size: 16px;
+}
+.checkBoxLabelCellInput {
+	top: -2px;
+	position: relative;
+	padding-right: 9px;
+}
+/** Common **/
+
+/** Search Filters **/
+
+.filters {
+	border-bottom: 1px solid #dce0e0;
+}
+.filterSection {
+	position: relative;
+	margin: 0;
+	padding: 15px 20px;
+	display: block;
+}
+.filterSectionBottom {
+	padding-bottom: 60px;
+}
+.filterSection + .filterSection:before,
+.sectionBorder:before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	height: 1px;
+	left: 20px;
+	right: 20px;
+	border-top: 1px solid #dce0e0;
+	border-color: #dce0e0;
+	border-color: rgba(220, 224, 224, 0.5);
+}
+.sectionLabel {
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+.sectionLabelTotal {
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	text-align: right;
+}
+.filtersFooter {
+	width: 60%;
+	position: fixed;
+	transform: translateZ(1px);
+	bottom: 0;
+	background-color: #fff;
+	padding: 10px;
+	display: block;
+}
+.filterPlaceHolder {
+	height: 322px;
+	display: none;
+}
+.introSection {
+	display: block;
+}
+.collapsePanel {
+	border: none;
+}
+.showSection {
+	display: block;
+}
+.geoSuggestContainer {
+	width: 100% !important;
+	margin: 0px !important;
+}
+/** Search Filters **/
+
+/** Search More Filters Start **/
+
+.searchResultsCaption {
+	position: relative;
+	margin: 0;
+	padding: 15px 20px;
+}
+.showSm {
+	display: none;
+}
+.hideSm {
+	display: block;
+	text-align: right;
+}
+@media screen and (max-width: 800px) {
+	.filterSection,
+	.filtersFooter {
+		width: 100%;
+		display: block;
+	}
+	.responsiveSpaceBottom {
+		margin-bottom: 12px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.showSm {
+		display: block;
+		text-align: right;
+	}
+	.hideSm {
+		display: none;
+	}
+	.btn {
+		width: 100%;
+		padding: 7px 14px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.smSpace {
+		margin-bottom: 12px;
+	}
+}
+/** Search More Filters End **/

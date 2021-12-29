@@ -1,0 +1,168 @@
+@import '../../../components/variables.css';
+@import '../../../components/helpers.css';
+/** Common **/
+.textContainer {
+	width: calc(100% - 125px) !important;
+	display: inline-block !important;
+	vertical-align: middle;
+	height: 54px !important;
+	margin-top: 36px;
+	padding-bottom: 6px;
+	padding-left: 30px;
+}
+.textOverflow {
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+}
+.listTitleText {
+	font-weight: 700 !important;
+	word-wrap: break-word !important;
+	font-size: 19px !important;
+	line-height: 24px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	color: #ffffff !important;
+}
+.imgContainer {
+	padding-right: 16px !important;
+	display: inline-block !important;
+	vertical-align: top !important;
+	width: 115px !important;
+	height: 80px !important;
+	padding-left: 16px !important;
+}
+.subTexContainer {
+	word-wrap: break-word !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	letter-spacing: 0.2px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	color: #ffffff !important;
+}
+.textBottom {
+	margin-bottom: 8px;
+}
+.imageContent {
+	width: 100% !important;
+	height: 100% !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	border-radius: 50%;
+	display: inline-block;
+	border: 2px solid #fff;
+	background-color: #dedede;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	display: inline-block;
+	width: 100%;
+	max-width: 74px;
+	max-height: 74px;
+	box-shadow: 0 1px 10px 0px #484848;
+}
+.textStrong {
+	font-weight: bold;
+}
+.reviewStar {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.reviewText {
+	padding: 5px;
+	color: #ffffff;
+}
+.roomTitleBlock {
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+}
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}
+/** Home slider Item - Start **/
+.imgContainer::before {
+	content: "";
+	width: 130px;
+	height: 125px;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	background-color: var(--btn-primary-bg);
+	border-radius: 250px;
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	border: 4px solid #ffffff;
+	box-shadow: 0 1px 10px 0 #484848;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 250px;
+	border-bottom: 0px solid transparent;
+	border-left: 0px solid transparent;
+}
+@media screen and (max-width: 992px) {
+	.imageContent {
+		width: 100% !important;
+		height: 100% !important;
+		background-size: cover !important;
+		background-position: center center !important;
+		border-radius: 50%;
+		display: inline-block;
+		border: 2px solid #fff;
+		background-color: #dedede;
+		position: absolute;
+		left: 10px;
+		bottom: 10px;
+		display: inline-block;
+		width: 100%;
+		max-width: 54px;
+		max-height: 54px;
+		box-shadow: 0 1px 10px 0px #484848;
+	}
+	.imgContainer::before {
+		content: "";
+		width: 100px;
+		height: 95px;
+		position: absolute;
+		top: 30px;
+		left: 0px;
+		background-color: var(--btn-primary-bg);
+		border-radius: 250px;
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+		border: 4px solid #ffffff;
+		box-shadow: 0 1px 10px 0 #484848;
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 250px;
+		border-bottom: 0px solid transparent;
+		border-left: 0px solid transparent;
+	}
+	.textContainer {
+		display: inline-block !important;
+		vertical-align: middle;
+		height: 54px !important;
+		margin-top: 36px;
+		padding-bottom: 6px;
+		padding-left: 0px;
+		max-width: 250px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.responsiveView {
+		display: none;
+	}
+	.imgContainer::before {
+		display: none;
+	}
+}
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}

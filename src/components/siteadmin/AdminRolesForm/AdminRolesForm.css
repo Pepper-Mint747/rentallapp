@@ -1,0 +1,13 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../admin-common.css';
+@import '../../helpers.css';
+/** RentAll - Begin **/
+.checkBoxWidth {
+  width: 34px;
+}
+.textWidth {
+  width: 88%;
+  vertical-align: middle;
+  font-size: 16px;
+}

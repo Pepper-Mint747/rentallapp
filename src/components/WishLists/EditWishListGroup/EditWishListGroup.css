@@ -1,0 +1,123 @@
+@import '../../helpers.css';
+@import '../../variables.css';
+/* Common Helpers Style - Start */
+.button {
+	font-size: 18px !important;
+  line-height: 1.42857143;
+  border: 1px solid;
+  text-decoration: none !important;
+  display: inline-block;
+  text-align: center;
+}
+.deleteBtnMargin {
+  margin-right: 6px !important;
+}
+.landingTitle {
+	font-size: 32px;
+	color: #484848;
+	margin: 12px 0px 12px 0px;
+	word-break: break-word;
+}
+.landingContentTitle {
+	font-size: 24px;
+	color: #484848;
+	margin: 0px 0px 18px 0px;
+}
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.pullRight {
+	float: right;
+}
+/* Common Helpers Style - End */
+
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.noPadding {
+	padding: 0px;
+}
+.landingContentTitle {
+	font-size: 24px;
+	color: #484848;
+	margin: 0px 0px 18px 0px;
+}
+.marginTop {
+	margin-top: 40px !important;
+}
+.modalCaptionLink {
+	color: var(--btn-primary-hover-bg) !important;
+	border: 1px solid var(--btn-primary-hover-bg);
+	background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.modalCaptionLink:focus {
+	color: var(--btn-primary-hover-bg) !important;
+}
+.modalCaptionLink:hover {
+	color: #ffffff !important;
+	text-decoration: none !important;
+	background: var(--btn-primary-hover-bg);
+	border: 1px solid var(--btn-primary-hover-bg) !important;
+	cursor: pointer;
+	outline: 0;
+}
+.innerPadding {
+	padding: 0px 8px;
+}
+.listingSection {
+	display: inline-block;
+	width: 25%;
+	padding: 0px 8px;
+	margin-bottom: 12px;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.listingSection {
+		display: inline-block;
+		width: 33.33%;
+		padding: 0px 8px;
+		margin-bottom: 12px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.displayInlineBlock {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.pullRghtNone {
+		float: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.listingSection {
+		display: inline-block;
+		width: 100%;
+		padding: 0px 0px 12px 0px;
+		margin-bottom: 0px;
+	}
+	.resposiveBtn {
+		width: 100%;
+		text-align: center;
+	}
+	.responsiveDeleteBtn {
+		margin-right: 0;
+		margin-top: 12px;
+	}
+	.innerPadding {
+		padding: 0px 0px;
+  }
+  .deleteBtnMargin {
+    margin-right: 0px !important;
+    margin-top: 12px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+	.modalCaptionLinkLarge {
+		padding-left: 8px;
+	}
+}

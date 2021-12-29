@@ -1,0 +1,22 @@
+@import '../../variables.css';
+@import '../../helpers.css';
+ .panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	border-bottom: 1px solid #dce0e0;
+}
+.textCenter {
+	text-align: center;
+}
+.textTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #484848;
+}
+.textLead {
+	font-size: 14px;
+	color: #484848;
+}

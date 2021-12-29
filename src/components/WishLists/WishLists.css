@@ -1,0 +1,44 @@
+@import '../helpers.css';
+.button {
+  font-size: 18px !important;
+}
+.landingTitle {
+	font-size: 32px;
+	color: #484848;
+	margin: 0px 0px 30px 0px;
+}
+.landingContentTitle {
+	font-size: 24px;
+	color: #484848;
+	margin: 0px 0px 18px 0px;
+}
+.landingContent {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.noPadding {
+	padding: 0px;
+}
+.pullRight {
+	float: right;
+}
+.noMargin {
+	margin: 0px;
+}
+.noPadding {
+	padding: 0px;
+}
+/** SyncCalendar Start **/
+
+.marginTop {
+	margin-top: 40px !important;
+}
+@media screen and (max-width: 640px) {
+	.smPosition {
+		float: none;
+	}
+	.smTop4 {
+		margin-top: 24px;
+	}
+}
+/** SyncCalendar End **/

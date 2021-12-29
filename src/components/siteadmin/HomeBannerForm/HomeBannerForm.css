@@ -1,0 +1,12 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+@import '../../helpers.css';
+.bannerPadding {
+    padding: 50px 30px !important;
+}
+@media screen and (max-width: 767px) {
+    .bannerPadding {
+        padding: 12px 0px 0px !important;
+    }
+}

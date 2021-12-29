@@ -1,0 +1,51 @@
+@import '../../variables.css';
+.bannerLayoutContainer {
+    min-height: 508px;
+    height: auto;
+    position: relative;
+}
+.bannerBackgroundImage {
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	transition: all 0.1s ease;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.searchFormContainer {
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	max-width: var(--max-content-width);
+	padding: 100px 15px;
+}
+.searchFormWrap {
+	color: #767676;
+	background: #fff;
+	padding: 30px;
+	border-radius: 15px;
+	width: 100%;
+	max-width: 450px;
+	box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.searchFormWrap h1 span {
+	margin: 0 0 10px;
+	color: var(--btn-primary-bg);
+}
+.searchFormWrap h1 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 26px;
+	color: #484848;
+}
+@media screen and (max-width: 767px) {
+	.searchFormWrap {
+		padding: 20px;
+	}
+}

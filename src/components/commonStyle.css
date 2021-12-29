@@ -1,0 +1,176 @@
+@import './variables.css';
+.btnPrimary {
+  border-color: var(--btn-primary-bg) !important;
+  background-color: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-color) !important;
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: var(--btn-primary-hover-bg) !important;
+  background-color: var(--btn-primary-hover-bg) !important;
+  color: var(--btn-primary-color);
+  box-shadow: none !important;
+}
+.btnPrimaryBorder {
+	border-color: var(--btn-primaryBorder-color);
+  color: var(--btn-primaryBorder-color) !important;
+  background-color: var(--btn-primaryBorder-bg);
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  border: 1px solid !important;
+  cursor: pointer;
+}
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: var(--btn-primaryBorder-color);
+  color: var(--btn-primaryBorder-color);
+  background-color: var(--btn-primaryBorder-bg);
+  box-shadow: none !important;
+}
+.btnSecondary {
+	border: 1px solid var(--btn-secondary-bg) !important;
+	background-color: #fff !important;
+  color: var(--btn-secondary-bg) !important;
+  padding: 7px 21px;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+.btnSecondary:hover, .btnSecondary:focus, .btnSecondary:active,
+.btnSecondary:active:hover, .btnSecondary:active:focus {
+  border-color: var(--btn-secondary-bg) !important;
+	background-color: var(--btn-secondary-bg) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+.btnPrimaryLink {
+    border: 1px solid var(--btn-primaryBorder-color) !important;
+}
+.nofocus:active:focus {
+  background: #fff !important;
+  color: var(--btn-primaryBorder-color) !important;
+}
+.btnLarge {
+  padding: 9px 21px !important;
+}
+.btnSmall {
+  padding: 5px 0px;
+}
+.btnBig {
+  padding: 13px 21px !important;
+}
+.fullWidth {
+  width: 100%;
+}
+.noTextDecration {
+  text-decoration: none !important;
+}
+.textAlignRight {
+  text-align: right;
+}
+.commonControlInput {
+	padding: 10px 35px 10px 10px;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 14px;
+	border: 1px solid var(--border-color) !important;
+	background-color: #fff;
+	line-height: 24px;
+  color: #484848;
+  font-weight: normal;
+  box-shadow: none;
+}
+.commonControlSelect {
+  padding: 10px 32px 10px 10px;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 14px;
+	border: 1px solid var(--border-color) !important;
+	background-color: #fff;
+	color: #484848;
+  line-height: 19px;
+  font-weight: normal;
+	display: block;
+	overflow: hidden;
+  appearance: none;
+  box-shadow: none !important;
+}
+.noTextDecoration {
+  text-decoration: none !important;
+}
+/*-----------------------Profilephoto Upload Common Styles Start----------------------------- */
+.picContainerMain {
+  padding: 30px;
+  box-shadow: 0px 0px 15px 0px #eeebeb;
+  border-radius: 4px;
+}
+.picContainer{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background: #e7e7e7;
+  padding: 20px;
+}
+.picContainer{
+  border-radius: 10px;
+  background: #fff;
+  border: 2px dotted #767676;
+}
+.profilePic{
+  border-radius: 100px;
+}
+.trashIcon{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 22px;
+  height: 22px;
+  background: #000;
+  padding-top: 3px;
+  border: 0;
+  border-radius: 2px;
+  opacity: .9;
+  color: #fff;
+  cursor:pointer;
+}
+.trashIconNew {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.profileImageBg {
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  max-width: 180px;
+  margin: 0 auto;
+  background-position: 50% 50%;
+}
+.whiteImg {
+  background: #7B7B7B;
+  border-radius: 0px;
+}
+.curderPointer {
+  cursor: pointer;
+}
+.listingTitleText {
+	margin: 0px 0px 18px 0px;
+	font-size: 22px;
+}
+.trustBtnLarge {
+  padding: 9px 15px;
+}
+/*-----------------------Profilephoto Upload Common Styles End----------------------------- */

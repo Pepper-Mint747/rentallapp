@@ -1,0 +1,19 @@
+@import '../../../variables.css';
+@import '../../admin-common.css';
+@import '../../admin-form.css';
+@import '../../../helpers.css';
+.root {
+  padding: 32px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 380px;
+}
+/** RentAll - Begin **/
+.logInModalContainer {
+  max-width: 450px;
+}
+.logInModalBody {
+  padding: 0px;
+}

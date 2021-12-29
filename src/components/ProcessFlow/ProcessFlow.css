@@ -1,0 +1,52 @@
+@import '../../components/helpers.css';
+@import '../../components/variables.css';
+.progressContainer {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.progressBox {
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+}
+.flowContent {
+	margin: 0px !important;
+	word-wrap: break-word !important;
+	font-size: 19px !important;
+	line-height: 24px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	color: #484848 !important;
+	font-weight: 300 !important;
+	text-align: justify;
+}
+.titleText {
+	font-weight: 700;
+	word-wrap: break-word;
+	line-height: 32px;
+	letter-spacing: -0.6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #484848;
+}
+.headerText {
+	font-size: 40px;
+	line-height: 56px;
+	letter-spacing: -0.8px;
+	color: #484848;
+	font-weight: 700;
+}
+@media screen and (max-width: 640px) {
+	.smBottom {
+		margin-bottom: 24px;
+	}
+	.smPadding {
+		padding: 0px;
+	}
+	.headerText {
+		font-weight: 700 !important;
+		font-size: 36px !important;
+		line-height: 36px !important;
+		letter-spacing: -0.6px !important;
+	}
+}

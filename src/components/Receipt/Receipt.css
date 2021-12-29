@@ -1,0 +1,134 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .Container {
+	min-height: 700px;
+	position: relative;
+}
+.containerResponsive {
+	max-width: var(--max-content-width);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.receiptPanel {
+	border-radius: 0;
+}
+.rowWidth {
+	width: 400px
+}
+.textBold {
+	font-weight: bold;
+	color: #484848;
+}
+.rowTable {
+	display: table;
+	table-layout: fixed;
+	width: 100%
+}
+/** Common Styles  start**/
+.pullRight {
+	float: right;
+}
+.iconSection {
+	position: relative;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	max-width: 10px;
+	display: inline;
+}
+.iconSection svg {
+	margin: -4px 0 0 0;
+}
+.positionR {
+	position: relative;
+}
+.specialPriceIcon {
+	display: inline-block;
+	position: relative;
+}
+.specialPriceIcon:hover .tltip {
+	display: block;
+}
+.faqImage {
+	width: 100%;
+	max-width: 19px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.tltip {
+	position: absolute;
+	top: -48px;
+	right: 0;
+	left: 0px;
+	display: none;
+	background: #484848;
+	min-width: 280px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff;
+}
+.relativeSection::after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	top: 34px;
+	bottom: 0;
+	text-align: center;
+	background-color: #484848;
+	z-index: 1;
+	max-width: 11px;
+	max-height: 11px;
+	transform: rotate(136deg);
+}
+@media screen and (max-width: 767px) {
+	.tltip {
+		position: absolute;
+		top: 29px;
+		right: 0;
+		left: 0px;
+		display: none;
+		background: #484848;
+		min-width: 250px;
+		text-align: center;
+		padding: 10px;
+		border-radius: 4px;
+		color: #fff;
+	}
+	.relativeSection::after {
+		content: '';
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		left: 10px;
+		right: 0;
+		top: -3px;
+		bottom: 0;
+		text-align: center;
+		background-color: #484848;
+		z-index: 1;
+		max-width: 11px;
+		max-height: 11px;
+		-ms-transform: rotate(136deg);
+		transform: rotate(136deg);
+	}
+}
+
+.displayFlex {
+	display: flex;
+}
+.displayTableCell{
+	display: table-cell;
+	vertical-align: top;
+}
+.displayTableCellMiddle{
+	vertical-align: middle;
+}
+/** Common Styles  start**/

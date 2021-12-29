@@ -1,0 +1,49 @@
+@import '../../variables.css';
+@import '../common.css';
+@import '../../helpers.css';
+.activationStepPanel{
+  max-width: 530px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 520px;
+  text-align: center;
+  border: none;
+}
+.panelBody{
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+a , a:hover, a:focus, a:active{
+  color: var(--btn-secondary-bg);
+  text-decoration: none;
+}
+.profileImage{
+  height: 130px;
+  width: 130px;
+}
+.mediaPhoto{
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+.mediaRound{
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.btnColor {
+  color: #fff !important;
+}
+.btnlarge {
+   padding: 7px 0px !important;
+}
+@media screen and (max-width:767px){
+  .profileImage{
+    height: 110px;
+    width:110px;
+  }
+}

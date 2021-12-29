@@ -1,0 +1,125 @@
+@import '../../variables.css';
+@import '../../utils.css';
+ .landingContainer {
+	max-width: var(--max-content-width);
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.noPadding {
+	padding: 0;
+}
+.landingContentTitle {
+	font-size: 24px;
+	color: #484848;
+	margin: 0 0px 18px;
+}
+.landingStep {
+	font-size: 18px;
+	color: #767676;
+	margin: 0 0px 10px;
+	display: block;
+}
+.horizontalLineThrough {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 15px 0px;
+	width: 100%;
+	color: #767676;
+	text-align: center;
+	font-size: 14px;
+}
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 1.42857143;
+	text-align: center;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.btnJumbo {
+	padding: 20px 36px;
+	line-height: 1;
+	font-size: 18px;
+	text-align: center;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.textareaInput {
+	height: 117px !important;
+	padding: 18px !important;
+	border-color: #dce0e0;
+	font-size: 16px !important;
+	border-radius: 2px;
+}
+.imgContainer {
+	position: relative;
+	width: 100%;
+}
+.parent {
+	background: #d8d8d8 none repeat scroll 0 0;
+	padding-top: 56.6667%;
+	position: relative;
+}
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.starSize {
+	font-size: 28px;
+}
+.starReview {
+	display: inline;
+	position: relative;
+	float: left;
+}
+.textBold {
+	font-weight: bold;
+}
+.reviewEndText {
+	font-size: 16px;
+	color: #484848;
+}
+.textMuted,
+.textMuted:hover,
+.textMuted:focus,
+.textMuted:hover:focus {
+	color: #767676;
+	text-decoration: none;
+	font-size: inherit;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #484848;
+}
+@media screen and (max-width: 767px) {
+	.showLg {
+		display: none;
+	}
+}

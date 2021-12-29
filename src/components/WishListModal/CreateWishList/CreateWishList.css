@@ -1,0 +1,49 @@
+@import '../../../components/variables.css';
+@import '../../../components/common.css';
+@import '../../../components/helpers.css';
+ .root {
+	padding: 0px 15px 15px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 50vh;
+	overflow: hidden;
+}
+/** RentAll - Begin **/
+.logInModalContainer {
+	max-width: 420px;
+}
+.logInModalBody {
+	padding: 0px;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+.marginLeft {
+	margin-left: 12px;
+}
+.labelText {
+	word-wrap: break-word;
+	font-weight: normal;
+	padding: 10px 0px;
+	margin: 0px;
+	line-height: 24px;
+	font-size: 19px;
+}
+.btnText {
+	text-decoration: none !important;
+}
+.btnSection {
+	display: block;
+	margin-bottom: 12px;
+}
+.formContainer {
+	padding: 15px 0px;
+	border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width: 640px) {
+	.logInModalContainer {
+		margin: 0px auto;
+	}
+}

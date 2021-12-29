@@ -1,0 +1,47 @@
+@import '../../helpers.css';
+/** Common **/
+.listPhotoContainer {
+	position: relative;
+	width: 100%;
+}
+.parent {
+	background: #d8d8d8 none repeat scroll 0 0;
+	padding-top: 66.6667%;
+	position: relative;
+	border-radius: 4px;
+}
+.children {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.imageContent {
+	height: 100%;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	border-radius: 4px;
+}
+.imagePaddingTop {
+	padding-top: 30px !important;
+}
+.imagePadding {
+	padding: 1px!important;
+}
+@media screen and (max-width: 480px) {
+	.imagePaddingTop {
+		padding-top: 10px;
+	}
+}
+/* List Item - End */

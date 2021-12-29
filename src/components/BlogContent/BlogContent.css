@@ -1,0 +1,17 @@
+@import '../helpers.css';
+@import '../variables.css';
+.subText {
+	margin-top: 45px;
+	font-size: 16px;
+	color: #484848;
+	text-align: justify;
+	font-weight: 300;
+	font-style: normal;
+}
+.root {
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	min-height: 50vh;
+}
+/** Banner caption - End **/

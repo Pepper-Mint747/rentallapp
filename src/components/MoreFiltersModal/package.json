@@ -1,0 +1,6 @@
+{
+    "name": "MoreFiltersModal",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./MoreFiltersModal.js"
+}

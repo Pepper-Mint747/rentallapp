@@ -1,0 +1,7 @@
+@import '../variables.css';
+.logoColor{
+	color:var(--btn-primary-bg);
+}
+.whiteColor{
+	color:#fff;
+}

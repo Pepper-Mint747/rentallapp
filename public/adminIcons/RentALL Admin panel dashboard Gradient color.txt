@@ -1,0 +1,29 @@
+
+
+
+RentALL admin panel side bar gradient color  
+
+0    >> #000c5b
+100  >> #380039
+Rotation >> 90 degree
+
+
+Total Users
+
+0    >> #ff5856
+100  >> #f91e88
+Rotation >> 123 degree
+
+
+Last 24hrs
+
+0    >> #ffcf1b
+100  >> #ff8818
+Rotation >> 123 degree
+
+
+Last 30days
+
+0    >> #0fc4e2
+100  >> #6454f0
+Rotation >> 123 degree

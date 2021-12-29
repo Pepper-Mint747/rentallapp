@@ -1,0 +1,59 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+@import '../../helpers.css';
+.loginMainBg {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+.formSection {
+  padding: 19% 0;
+  background-color: #F8F8F8;
+}
+.formInner {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.loginBg {
+  width: 100%;
+  height: 100%;
+  padding-top: 64%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+.loginbtn {
+  padding: 13px 21px !important;
+}
+.loginInput {
+  height: 50px !important;
+}
+.loginLabel {
+  font-weight: 100 !important;
+  font-size: 18px !important;
+}
+.loginTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #484848;
+  margin: 12px 0 0 0;
+}
+.loginTitleScetion {
+  text-align: center;
+  margin-bottom: 42px;
+}
+.loginTitleScetion  img {
+  width: 100%;
+  max-width: 120px;
+}
+@media screen and (max-width: 767px) {
+  .loginMainBg {
+    grid-template-columns: 100%;
+  }
+  .loginBg {
+    display: none
+  }
+}

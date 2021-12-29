@@ -1,0 +1,78 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/helpers.css';
+/** RentAll - Begin **/
+.formContainer {
+	max-width: 380px;
+	width: 100%;
+}
+.noMargin {
+	margin: 0px;
+}
+.modalCaptionLink {
+	color: var(--btn-secondary-bg);
+	font-size: 14px;
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+	cursor: pointer;
+}
+.labelText {
+	font-size: 14px;
+	color: #767676;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: normal
+}
+.iconSize,
+.iconSize:hover,
+.iconSize:active {
+	font-size: 20px;
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+	cursor: pointer;
+}
+.tableBox {
+	width: 100%;
+	border: 1px solid #d1d1c9;
+}
+.tableBoxHeader {
+	background-color: #f1f1f1;
+	color: #484848;
+	border-right: 1px solid #d1d1c9;
+	padding: 0px 10px;
+	width: 30%;
+}
+.tableBox tr td {
+	padding: 8px 10px;
+	color: #484848;
+	font-size: 14px;
+}
+.confirmedIcon {
+	font-size: 20px;
+	color: #767676;
+	vertical-align: sub;
+}
+@media screen and (max-width: 767px) {
+	.tableBox tr {
+		display: block;
+		width: 100%;
+		position: relative;
+	}
+	.tableBoxHeader {
+		display: block;
+		padding: 10px;
+		border-right-width: 0px;
+		border-bottom: 1px solid #d1d1c9;
+		width: 100%;
+	}
+	.tableBox tr td {
+		width: 100%;
+	}
+}

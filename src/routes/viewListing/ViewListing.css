@@ -1,0 +1,268 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .root {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: 0px;
+}
+.pageContainer {
+	background: #FFF;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.pageContent {
+	max-width: 1080px;
+	position: relative;
+	display: block;
+	margin: 0px auto;
+	padding: 0px;
+}
+.horizontalLineThrough {
+	position: relative;
+	display: block;
+	border-bottom: 1px solid #dce0e0;
+}
+.paddingTop2 {
+	padding-top: 12px;
+}
+.noPadding {
+	padding: 0px;
+}
+.positionSticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 45px;
+}
+.paddingIntro {
+	padding-bottom: 15px;
+}
+.similarPadding {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.similarPaddingText {
+	padding: 0px;
+}
+.panelDefault {
+	z-index: 1;
+	background: #ffffff;
+	width: 100%;
+}
+.zPanel {
+	z-index: 3;
+	left: 0px;
+	right: 0px;
+	width: 100% !important;
+	visibility: hidden;
+}
+.showAffix {
+	visibility: visible;
+}
+.viewHeader {
+	height: 51px;
+	border-bottom: 1px solid #DBDBDB;
+}
+.textList {
+	display: inline-block;
+	padding: 17px 10px 0px 10px;
+}
+a {
+	color: #008489;
+}
+.textColor {
+	color: #008489;
+	text-decoration: none;
+	appearance: none;
+	background: transparent;
+	border: 0px;
+	cursor: pointer;
+	padding: 0px 15px;
+	max-width: 1080px;
+	margin: 0 auto
+}
+.headerNav {
+	font-weight: normal;
+	color: #484848;
+	margin: 0px;
+	word-wrap: break-word;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+}
+.active,
+.active:hover,
+.active:focus {
+	color: #484848;
+	text-decoration: none;
+	appearance: none;
+	background: transparent;
+	border: 0px;
+	cursor: pointer;
+	user-select: auto;
+	font-weight: bold;
+}
+.stickyMenu li {
+	padding: 0px;
+}
+.stickyMenu li:after {
+	content: "\22C5";
+	color: #484848;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.stickyMenu li:last-child:after {
+	display: none;
+}
+.displayTable {
+	display: table;
+	width: 100%;
+}
+.displayTableCell {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+.sectionTitleText {
+	font-size: 24px;
+	font-weight: bold;
+}
+.stickyBookButton {
+	display: none;
+}
+.filtersFooter {
+	position: fixed !important;
+	bottom: 0px !important;
+	left: 0px !important;
+	right: 0px !important;
+	z-index: 4;
+}
+.filtersContainer {
+	background-color: #ffffff !important;
+	padding-top: 16px !important;
+	padding-bottom: 16px !important;
+	z-index: 5 !important;
+	border-top: 1px solid #DBDBDB !important;
+	box-shadow: 0px 0px 4px 1px #dedede;
+}
+.footerContainer {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: auto !important;
+	padding-right: 24px !important;
+	padding-left: 24px !important;
+}
+.bookItPriceAmount {
+	display: inline-block;
+}
+.bookItPrice {
+	word-wrap: break-word;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: normal;
+	color: rgb(72, 72, 72);
+	font-weight: 800;
+	display: inline;
+	margin: 0px;
+}
+.bookItNight {
+	font-weight: 600;
+	margin: 0px;
+	word-wrap: break-word;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: normal;
+	color: #484848;
+	display: inline;
+}
+.fullWidth {
+	width: 100%;
+}
+.btn {
+	font-size: 14px;
+}
+.reviewSection {
+	display: inline-block;
+	float: left;
+	padding-right: 5px;
+}
+.listingIntroSection {
+	padding-top: 0;
+	margin-top: -26px;
+}
+.noBorder {
+	border: 0px !important;
+}
+.instantIcon {
+	color: #ffb400;
+	position: relative;
+	bottom: 5px;
+	height: 22px;
+	width: 22px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+	.positionSticky {
+		top: 72px;
+	}
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+	.zPanel {
+		z-index: 3;
+	}
+}
+@media screen and (max-width: 991px) {
+	.sliderMargin {
+		padding-bottom: 70px;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.listingIntroSection {
+		padding-top: 26px;
+		margin-top: 0;
+	}
+	.sliderMargin {
+		padding-bottom: 100px;
+	}
+	.stickyContainer {
+		width: 100% !important;
+	}
+	.stickyBookButton {
+		display: block;
+	}
+	.displayBlockMobile {
+		display: block;
+	}
+	.displayTableMobile {
+		width: auto;
+	}
+	.webDevice {
+		display: block !important;
+	}
+	.filtersFooter {
+		width: 100%;
+		display: block;
+	}
+}
+@media screen and (max-width: 640px) {
+	.stickyContainer {
+		display: none;
+	}
+}
+@media screen and (min-width: 641px) {
+	.webDevice {
+		display: block !important;
+	}
+}
+@media screen and (max-width: 355px) {
+	.responsiveNopadding {
+		padding: 0px !important;
+	}
+}

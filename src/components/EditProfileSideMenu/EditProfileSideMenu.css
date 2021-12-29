@@ -1,0 +1,23 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+ .listContainer {
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.sideNavitem {
+	display: block;
+	padding: 8px 0;
+	font-size: 16px;
+	color: #767676;
+	text-decoration: none;
+}
+.sideNavitem:hover,
+.sideNavitem:active,
+.sideNavitem:focus {
+	text-decoration: none;
+	color: #484848;
+}
+.displayInlineBlock {
+	display: inline-block;
+}

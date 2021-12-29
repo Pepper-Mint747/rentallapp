@@ -1,0 +1,53 @@
+@import '../../variables.css';
+@import '../../utils.css';
+@import '../../helpers.css';
+.labelText {
+	font-size: 14px;
+	color: #484848;
+	font-weight: normal;
+}
+.formControlSelect {
+	margin-bottom: 8px;
+	width: 100%;
+}
+.formGroup {
+	margin-bottom: 6px;
+}
+/*************************Panel Styles End******************************************/
+a {
+	color: #CEB8BD;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #CEB8BD;
+	cursor: pointer;
+	text-decoration: none;
+}
+.noMargin {
+	margin: 0px !important;
+}
+.noPaddingRight {
+	padding-right: 0px !important;
+}
+.noPaddingLeft {
+	padding-left: 0px !important;
+}
+.creditCardForm {
+	padding: 15px;
+	float: left;
+	position: relative;
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 1px solid #dce0e0;
+}
+.creditCardFormSection {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	position: relative;
+	display: block;
+}

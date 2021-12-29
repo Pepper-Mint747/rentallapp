@@ -1,0 +1,99 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+/*.......................common Styles Start..........................*/
+.pageContainer {
+	width: 100%;
+	max-width: var(--max-content-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+.containerResponsive {
+	max-width: var(--max-content-width);
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.43;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+}
+/*.......................common Styles end..........................*/
+/*.......................ProfilePhoto  Styles Start..........................*/
+.slideShow {
+	position: relative;
+	height: auto;
+}
+.slideShowImages {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.slideShowImages {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #bbb;
+}
+.imgResponsive {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+.panelHeader {
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #dce0e0;
+}
+.panelBody {
+	font-size: 14px;
+	color: inherit;
+}
+.panelBorder {
+	border-top: 1px solid #dce0e0;
+}
+.listStyle {
+	padding-left: 0;
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #484848;
+	margin-bottom: 0px;
+}
+/*.......................ProfilePhoto  Styles End..........................*/
+/*.......................Profiledescription Styles Start..........................*/
+.showSm {
+	display: none;
+}
+.meassageBg {
+	background-color: #f5f5f5;
+}
+.linkText {
+	text-align: center;
+	display: block;
+}
+@media screen and (max-width: 640px) {
+	.showSm {
+		display: block;
+	}
+	.hideSm {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.smPadding {
+		padding: 0px;
+	}
+}

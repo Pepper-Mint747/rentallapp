@@ -1,0 +1,7 @@
+@import '../../../variables.css';
+@import '../../admin-common.css';
+@import '../../admin-form.css';
+@import '../../../helpers.css';
+.btnWidth {
+    width: 100%;
+}

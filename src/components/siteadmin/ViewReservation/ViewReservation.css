@@ -1,0 +1,6 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../../helpers.css';
+.capitalize { 
+	text-transform: capitalize; 
+}

@@ -1,0 +1,25 @@
+.root{
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  height: 65px;
+  background: rgb(255, 255, 255);
+}
+.container{
+  height: 48px;
+  width: 100%;
+  position: initial;
+  overflow-x: initial;
+  white-space: initial;
+}
+.header{
+  width: 100%;
+  z-index: 4;
+  position: relative;
+  height: 64px;
+  background: rgb(255, 255, 255);
+  border-bottom: 0px;
+  padding: 16px;
+}
+/** Search More Filters End **/

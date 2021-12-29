@@ -1,0 +1,104 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+.noPadding {
+	padding: 0px;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.modalCaptionLink {
+	color: var(--btn-secondary-bg);
+}
+.modalCaptionLinkLarge {
+	font-size: 16px;
+	line-height: 32px;
+}
+.modalCaptionLink:hover,
+.modalCaptionLink:focus {
+	color: var(--btn-secondary-bg);
+	text-decoration: underline;
+	cursor: pointer;
+}
+.checkboxLabel {
+	word-wrap: break-word;
+	color: #484848;
+	font-weight: normal;
+	padding: 8px 0px;
+	margin: 0px;
+	line-height: 24px;
+	font-size: 18px;
+}
+.labelSection {
+	width: 80%;
+	float: left;
+	position: relative;
+}
+.checkBoxSection {
+	width: 20%;
+	float: left;
+	position: relative;
+	text-align: right;
+	padding: 8px 10px 8px 5px;
+}
+.landingCaption {
+	color: #767676;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	width: 100%;
+	position: relative;
+}
+.listContainer {
+	padding: 0px;
+	list-style-type: none;
+	max-height: 40vh;
+	overflow-y: auto;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+.listContent {
+	margin: 0;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 15px 15px;
+}
+.listContainer .listContent:last-child {
+	border-bottom: 0px;
+}
+.wishListIcon {
+	color: var(--btn-primary-bg);
+	font-size: 24px;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	cursor: pointer;
+}
+.loader {
+	position: relative;
+	max-height: 30px;
+	max-width: 30px;
+	float: right;
+	padding-right: 35px;
+	text-align: right;
+	transform: scale(0.4);
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-o-transform: scale(0.4);
+}
+.wishListIcon {
+	line-height: 1;
+	cursor: pointer;
+	width: 100%;
+	max-width: 24px;
+}
+@media screen and (max-width: 767px) {
+	.labelSection {
+		word-break: break-word;
+	}
+}

@@ -1,0 +1,24 @@
+@import '../../../components/variables.css';
+.panelHeader{
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 0px;
+  background: #ffffff;
+  border: 0px;
+  margin-bottom: 0px;
+}
+.listContainer {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.listContainer .panelBody:first-child {
+  padding-top: 0px;
+}
+.listContainer .panelBody:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}   

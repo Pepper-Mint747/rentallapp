@@ -1,0 +1,224 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/helpers.css';
+/*************************Sidenavigation Styles start******************************************/
+a {
+	color: var(--btn-secondary-bg);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--btn-secondary-bg);
+	cursor: pointer;
+}
+/*************************Sidenavigation Styles end******************************************/
+/*************************verification Styles start******************************************/
+.listLayout {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+	color: #484848;
+	font-size: 14px !important;
+}
+.labelText {
+	text-transform: capitalize;
+	font-size: 12px;
+}
+/*************************verification Styles end******************************************/
+.sectionTitleLight {
+	color: #484848;
+	font-size: 14px;
+}
+.mediaContainer {
+	display: table;
+	position: relative;
+}
+.profileAvatarLink {
+	backface-visibility: hidden;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #bbb;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.displayTable {
+	display: table;
+	width: 100%;
+}
+.displayTableRow {
+	display: table-row;
+	width: 100%;
+}
+.displayTableCell {
+	display: table-cell;
+}
+.borderLine::after {
+	content: '';
+	width: 3px;
+	height: 100%;
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	z-index: 5;
+	box-shadow: 0px 0px 2px 1px #dedede;
+}
+.dateSectionWidth {
+	width: 10%;
+	position: relative;
+}
+.noMargin {
+	margin: 0;
+}
+.addressWidth {
+	width: 47%;
+}
+.logoWidth {
+	width: 33%;
+}
+.circle {
+	width: 100%;
+	background: #fff;
+	height: 20px;
+	max-width: 20px;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid var(--btn-primary-bg);
+	left: 36px;
+	top: 34px;
+	z-index: 5;
+}
+.positionRelative {
+	position: relative;
+}
+.dateFont {
+	font-size: 14px;
+}
+.dateFontMargin {
+	margin-left: 6px;
+}
+.mainSection {
+	display: block;
+	position: relative;
+	height: auto;
+	border-radius: 0;
+	border: none;
+	background: #fff;
+	padding: 15px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.mainSection::before {
+	display: inline-block;
+	border: 10px solid transparent;
+	border-left: 0;
+	border-right-color: #fff;
+	left: auto;
+	right: 100%;
+	border-width: 0 24px 24px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.mainSection::before {
+	content: " ";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: auto;
+	top: 0;
+}
+.afterSection::after {
+	left: -38px;
+	top: 0;
+	right: auto;
+	width: 38px;
+	border-top-right-radius: 22px;
+	border-bottom-left-radius: 22px;
+}
+.afterSection::after {
+	content: "";
+	position: absolute;
+	height: 40px;
+	background: #F7FAFF;
+	z-index: 3;
+}
+.alignCenter {
+	text-align: center;
+}
+.mediaWidth {
+	width: 100%;
+}
+.dateSection {
+	vertical-align: top;
+	padding: 35px 0 0 0px;
+}
+.linkTitle {
+	font-weight: 700;
+}
+.fontWeight {
+	font-weight: 700;
+}
+.textWordBreak {
+	word-break: break-all;
+}
+.dateFontNew {
+	font-size: 12px;
+	word-break: break-word;
+	width: 50%;
+}
+@media screen and (max-width: 1030px) {
+	.circle {
+		width: 100%;
+		background: #fff;
+		height: 20px;
+		max-width: 20px;
+		position: absolute;
+		border-radius: 50%;
+		border: 3px solid var(--btn-primary-bg);
+		left: 28px;
+		top: 34px;
+		z-index: 5;
+	}
+}
+@media screen and (max-width: 991px) {
+	.tabScreenresolution {
+		width: 100%;
+		display: block;
+	}
+	.tabAvatarSection {
+		width: 60%;
+		display: inline-block;
+	}
+	.tabPriceSection {
+		display: inline-block;
+		width: 40%;
+	}
+	.circle {
+		width: 100%;
+		background: #fff;
+		height: 20px;
+		max-width: 20px;
+		position: relative;
+		border-radius: 50%;
+		border: 3px solid var(--btn-primary-bg);
+		left: -37px;
+		top: 54px;
+		z-index: 5;
+	}
+}
+@media screen and (max-width: 767px) {
+	.responsiveDisplay {
+		display: block;
+		width: 100%;
+	}
+	.responsiveAvatarSection {
+		text-align: left;
+		margin-bottom: 8px;
+	}
+	.responsiveAvatarImg {
+		display: inline-block;
+		width: 20%;
+		float: right;
+		text-align: center;
+	}
+}

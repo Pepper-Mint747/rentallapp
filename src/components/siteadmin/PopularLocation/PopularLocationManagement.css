@@ -1,0 +1,8 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+@import '../../helpers.css';
+.imageurl{
+    max-width: 378px!important;
+    word-break: break-word;
+}

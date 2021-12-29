@@ -1,0 +1,45 @@
+.rentAllHeaderAdmin {
+	position: fixed!important;
+}
+.adminLayout {
+	padding-top: 64px!important;
+}
+.box h2{
+	font-size: 21px;
+	font-weight: 600;
+}
+.exportLink{
+	margin-bottom: -29px;
+}
+.blockcenter{
+	float: none;
+	display:block;
+	margin:0 auto;
+	margin-top:30px;
+}
+.panelHeader{
+	padding-bottom: 18px !important;
+	padding: 24px 15px;
+	border-radius: 6px!important;
+	border: 1px solid #dce0e0 
+}
+.currencyselect{
+	width:100%;
+	margin-right:0px;
+}
+.panelHeader{
+	overflow: hidden;
+	position:relative;
+}
+.mar0{
+	margin-left: 0;
+    margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+	.blockcenter{
+		padding: 0px;
+	}
+	.panelHeader{
+		padding: 24px 5px;
+	}
+}

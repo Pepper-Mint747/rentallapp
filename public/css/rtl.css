@@ -1,0 +1,1037 @@
+/* body.rtl {
+overflow-x: hidden;
+} */
+.rtl .seeALlAr{
+    float: left;
+}
+.rtl .homeSliderRtl{
+    direction: rtl;
+}
+.rtl .overViewIconrtl{
+    float: right;
+}
+.rtl .searchIconContainerrtl{
+    padding-right: 12px;
+}
+.rtl .showMaprtl{
+    float: left !important;
+}
+.rtl .searchMapSectionRtl{
+    right: auto;
+    left: 20px;
+}
+.rtl .resultsContainerRtl{
+    padding: 5px 12px 10px 0px;
+}
+.rtl .searchFilterPopoverRtl{
+    right: 0px;
+    left: auto;
+}
+.rtl .NhNameRtl{
+    padding: 0 10px 0 0;
+}
+.rtl .directionLtr{
+direction: ltr;
+}
+.rtl .labelTextMapRtl{
+    margin-left: 6px;
+}
+.rtl .redoTextRtl{
+   margin: 0px 10px 0px 0;
+}
+.rtl .selectNew{
+    background-position: 2% 12px !important;
+    padding: 10px 10px 10px 10px;
+ }
+ .rtl .contactHostSelect{
+    background-position: 2% 11px !important;
+    padding: 10px 10px 10px 10px;
+ }
+ .rtl .contactHostlistTextRTL{
+    padding-right: 18px;
+ }
+ .rtl .textColumnRtl{
+    padding-left: 80px;
+    padding-right: 0px;
+ }
+ .rtl .imageColumnRtl{
+    float: left;
+ }
+ .rtl .modaltextAlignLeftRtl{
+    text-align: right;
+ }
+ .rtl .modaltextAignRightRtl{
+    text-align: left;
+ }
+.rtl .shareIconRtl{
+    float: left;
+}
+.rtl .modal-dialog{
+    text-align: right;
+}
+.rtl .iconPositionRtl{
+    margin: -2px 0 0 8px;
+}
+.rtl .floatRight{
+    float: right;
+}
+.rtl .floatLeft{
+    float: left;
+}
+.rtl .heartIcon {
+    left: 15px !important;
+    right: auto !important;
+}
+.rtl .textAlignLeftRtl {
+   text-align: left;
+}
+.rtl .rc-pagination-item {
+    float: right;
+}
+.rtl .rc-pagination-prev {
+    float: right;
+}
+.rtl .rc-pagination-next {
+    margin-right: 6px;
+}
+.rtl .heartIconRtl{
+    left: 8px;
+    right: auto;
+}
+.rtl .shareBtnRtl{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.rtl .socialIconsRtl{
+    margin-left: 15px;
+}
+.rtl .currenyMarginRtl{
+    margin-left: 6px;
+    margin-right: 0;
+}
+.rtl .overviewIconRtl{
+   padding-left: 5px;
+}
+.rtl .listIconRtl{
+    margin-left: 6px;
+    margin-right: 0;
+ }
+ .rtl .saveButtonPositionRtl{
+    left: 10px;
+    right:auto;
+ }
+ .rtl .viewPhotosBtnRtl{
+    right: 20px;
+    left:auto;
+ }
+ .rtl .imgSectionRtl{
+    margin-left: 8px;
+    margin-right: 0;
+ }
+ .rtl .iconRemoveRtl{
+    left: 20px;
+    top: 0;
+    right: auto;
+ }
+.rtl .verificationBox {
+    padding-right: 0;
+}
+.rtl .doneIcon img {
+    margin-left: 6px;
+    margin-right: 0;
+}
+.rtl .dashFloatLeft {
+    float: right;
+    margin: 0 0px 0 3px;
+}
+.rtl .dashRightBg::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    bottom: auto;
+    border: 13px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    top: 0;
+    right: initial;
+    left: 100%;
+    border-width: 0px 24px 24px 0px;
+    transform: rotate(270deg);
+    border-color: transparent #fff transparent transparent;
+}
+.rtl .dashRightBg::after {
+    content: '';
+    position: absolute;
+    right: -38px !important;
+    top: 0;
+    left: auto !important;
+    width: 38px;
+    height: 40px;
+    background: #f7faff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transform: rotate(82deg);
+    z-index: 3;
+}
+.rtl .listLayoutArbic {
+    padding-right: 0px;
+}
+.rtl .reservartioARCircle {
+	width: 100%;
+	background: #fff;
+	height: 20px;
+	max-width: 20px;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid #ff5a5f;
+	right: 36px;
+	top: 34px;
+	z-index: 5;
+}
+.rtl .reservationLine::after {
+	content: '';
+	width: 3px;
+	height: 100%;
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+    left: 25px;
+    right: auto;
+	z-index: 5;
+	box-shadow: 0px 0px 2px 1px #dedede;
+}
+.rtl .reservationAfterSection::before {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    right: auto !important;
+    left: 100% !important;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(270deg);
+}
+.rtl .reservationAfterSection::after {
+    right: -38px;
+    top: 0;
+    left: auto;
+    width: 38px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    transform: rotate(82deg);
+}
+.rtl .sideMenuBorderPadding {
+    padding: 0px 10px 0px 3px;
+}
+.rtl .reviewsId {
+    margin-left: 2px;
+    margin-right: 0;
+    float: right;
+}
+.rtl .paddingRightAR {
+    padding: 0px 35px 0px 0px;
+}
+.rtl .viewMessageCheckOutSection {
+    float: left;
+    text-align: right;
+}
+.rtl .textAlignRightRtl {
+    text-align: right;
+}
+.rtl .profileAvatarSectionLeftAr {
+    margin: 0px 0px 0 6px;
+}
+.rtl .viewMessageBubble::before {
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    bottom: auto;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    top: 0px;
+    right: initial;
+    left: 100%;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(270deg);
+}
+.rtl .viewMessageBubble::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border-width: 0 22px 22px 0;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(82deg);
+}
+.rtl .radiusColorTwo::after {
+    content: '';
+    position: absolute;
+    right: -37px;
+    top: 0;
+    left: auto;
+    width: 38px;
+    height: 40px;
+    background: #F7FAFF;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 3;
+    transform: rotate(82deg);
+}
+.rtl .profileAvatarRight {
+    margin: 0px 6px 0px 0px;
+}
+.rtl .sendMessageRadius::after {
+    left: -37px;
+    top: 0;
+    right: auto;
+    width: 38px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.rtl .ViewBubbleRight::before {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-left: 0;
+    border-right-color: #fff;
+    left: auto;
+    right: 100%;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.rtl .ViewBubbleRight::after {
+    top: 0px;
+    left: -20px;
+    right: auto;
+    border-width: 0 24px 24px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.rtl .blockRadioBtnAR {
+    margin-right: 0px!important;
+    margin-left: 10px;
+}
+.rtl .paymentSelectAR{
+    padding: 8px 10px 8px 40px!important;
+    background-position: 2% 7px;
+}
+.rtl .pullRightBooking{
+float: right;
+}
+.rtl .selectPaymentDropdown{
+    padding: 8px 10px 8px 40px!important;
+    background-position: 2% 7px;
+}
+.rtl .cardNumberRtl{
+    padding: 16px 35px 0 0;
+    text-align: right !important;
+}
+.rtl .cardNumberRtlTwo{
+    padding: 10px 35px 0 0;
+}
+.rtl .Loader__message span{
+    direction: ltr !important;
+}
+.rtl .arButtonLoader span{
+    direction: ltr !important;
+}
+.rtl  .arCreateWish{
+margin-right: 12px;
+}
+.rtl .imgContainerRtl::before{
+    right: 0px;
+    left: auto;
+    transform: rotate(180deg);
+}
+.rtl .imageContentRtl{
+    right: 15px;
+    left: auto;
+    bottom: 35px;
+}
+.rtl .linkContainerRtl{
+    text-align: right;
+    float: right;
+    padding-right: 25px;
+}
+.rtl .headerSearch .geosuggest__suggests {
+    right: -45px !important;
+    text-align: right;
+}
+.rtl .roomTypeRtl{
+    float: right;
+}
+.rtl .redux-toastr .top-right{
+    left: 0;
+    right: auto;
+}
+.rtl .alertDangerRtl{
+    text-align: right;
+    padding-right: 50px;
+}
+.rtl .dangerIconRtl{
+    right: 18px;
+}
+.rtl .whyBtnRtl{
+    margin-right: 20px;
+}
+.rtl .rightsidecontentRtl{
+    padding-right: 8% !important;
+    padding-left: 0;
+}
+.rtl .leftsidecontentRtl{
+    padding-left: 8%;
+    padding-right: 0;
+}
+.rtl .paginationRtl{
+    direction: ltr;
+    display: inline-block;
+}
+.rtl .navRtl{
+    float: right;
+}
+.rtl .birthFormRtl{
+    padding-left: 28px;
+    background-position: 2% 8px;
+}
+.rtl .specialpriceRtl{
+    margin-right: 0;
+}
+.rtl .paddingLeftRtl{
+    padding: 0 22px 0 0;
+}
+.rtl .listStyleRtl{
+    padding-right: 0;
+}
+.rtl .searchRTL{
+    float: left;
+}
+.rtl .loginModal .close {
+    float: right !important;
+}
+.rtl .backgroundOneRTL{
+    background-position: 2% 50%;
+    padding: 10px 10px 10px 10px;
+}
+.rtl .buttonPositionRTL{
+    right: 13px;
+    left: auto;
+}
+.rtl .moreFilterModal .close {
+    float: right !important;
+}
+.rtl .viewGuestCount{
+    padding: 10px 10px 10px 10px;
+    background-position: 2% 7px;
+}
+.rtl .reviewSectionRTL{
+    float: right;
+    padding-left: 5px;
+    padding-right:0;
+}
+.rtl .gm-control-active.gm-fullscreen-control{
+    left: 0px;
+    right: auto !important;
+}
+.rtl .gmnoprint.gm-bundled-control{
+    left: 0px;
+    right: auto;
+}
+.rtl .verifyInfo .panel-body{
+    padding: 13px;
+}
+.rtl .publishArrow select {
+    background-position: 2% 11px;
+    padding: 8px 8px 8px 30px;
+}
+.rtl .listingInfoRTL{
+    direction: ltr;
+    text-align: right;
+}
+.rtl .responsiveMargin{
+    margin-right: 10%;
+}
+.rtl .seeAllBtnIcon{
+    transform: rotate(186deg);
+}
+.rtl .feedbackContent{
+    text-align: right;
+    padding-right: 15px;
+}
+.rtl .searchMapSection .gm-bundled-control {
+    left: 0 !important;
+}
+.rtl .redoContainerRTL{
+    right: 0;
+    margin-right: 18px;
+    margin-left: 0px;
+    left: auto;
+}
+.rtl .errorMessageFieldRTL{
+    text-align: right;
+}
+.rtl .commonControlSelectRTL{
+    padding: 10px 10px 10px 32px !important;
+    background-position: 6% 7px;
+}
+.rtl .csvExportRTL{
+    float: left;
+}
+.rtl .commonControlSelectPayoutRTL{
+    padding: 10px 10px 10px 32px !important;
+    background-position: 4% 7px;
+}
+.rtl .listLayoutRTL{
+    padding-right: 0;
+}
+.rtl .selectPayoutRTL{
+    margin-right: 0;
+}
+.rtl .rtlPayoutEmail{
+    text-align: right;
+    display: inline-block;
+}
+.rtl .panel-footer{
+    text-align: left;
+}
+.rtl .selectFormControlRTL{
+    padding: 8px 10px 10px 32px !important;
+    background-position: 2% 7px !important;
+}
+.rtl .textAlignLeftRtlEdit{
+    text-align: left;
+}
+.rtl .feedbackBorderLeftRtl{
+    border-left: 1px solid #dce0e0;
+    border-right: 1px solid transparent;
+}
+.rtl .feedbackBorderNoneRtl{
+    border-right: 1px solid transparent;
+}
+.rtl .feedbackBorderRightRtl{
+    border-right: 1px solid #dce0e0 !important;
+}
+.rtl .payoutTable {
+    -webkit-overflow-scrolling-x: touch;
+    white-space: nowrap;
+}
+.rtl .sideArrowRTL{
+    transform: rotate(-180deg);
+    padding-left: 5px;
+    padding-right: 0;
+}
+.rtl .closeColorAdminRTL{
+    text-align: left;
+    padding: 2px 2px 2px 12px;
+}
+.rtl .hamburger {
+    left: auto;
+    right: 25px;
+}
+.rtl .logoutIconRTL {
+    float: left;
+    margin: 23px 0px 0 15px;
+}
+.rtl .adminstyle .form-control{
+    background-position: 2% 7px;
+    padding: 10px 10px 10px 35px;
+}
+.rtl .adminUpdate{
+    margin-right: 15px;
+}
+.rtl .directionLtrTextRight{
+    direction: ltr;
+    text-align: right;
+}
+.rtl .listStyleRTL{
+    padding-right: 0;
+}
+.rtl .homeSwiper .swiper-button-prev {
+    top: 38%;
+    background-image: url('../SiteIcons/left-arrow-RentALL.png');
+    background-repeat: no-repeat;
+	left: auto;
+	transform: rotate(-180deg);
+    right: 1px;
+    
+}
+.rtl .homeSwiper .swiper-button-next {
+	top: 38%;
+	background-image: url('../SiteIcons/right-arrow-RentALL.png');
+	background-repeat: no-repeat;
+	right: auto;
+	transform: rotate(-180deg);
+	left: 1px;
+}
+.rtl .rtlWishListInput{
+        padding: 0 17px;
+} 
+.rtl .placeHolderNameRTL .InputElement {
+    text-align: right;
+}
+.rtl .StripeElement {
+	text-align: right;
+}
+.rtl .StripeElement  input::-webkit-input-placeholder {
+    text-align: right;
+  }
+.rtl .StripeElement  input:-moz-placeholder {
+    text-align: right;
+  }
+.rtl .StripeElement   input::-moz-placeholder {
+    text-align: right;
+  }
+.rtl .StripeElement   input:-ms-input-placeholder {
+    text-align: right;
+  }
+.rtl .inputFocusColor select{
+    background-position: 5% 58% !important;
+}
+.rtl .listTypeImportCalendar{
+    padding: 0;
+}
+.rtl .carousel-control.right {
+ 
+   
+    background-image: inherit !important;
+
+}
+.rtl .carousel-control.left {
+ 
+   
+    background-image: inherit !important;
+
+}
+.rtl .listHeaderAR .navbar-brand {
+    padding-top:5px;
+}
+.rtl .tableCellLeftRTL:not(first-child) {
+    border-left: 1px solid #dce0e0;
+}
+@media screen and (max-width: 1030px) {
+	.rtl .reservartioARCircle {
+		width: 100%;
+		background: #fff;
+		height: 20px;
+		max-width: 20px;
+		position: absolute;
+		border-radius: 50%;
+		border: 3px solid #ff5a5f;
+		right: 28px;
+		top: 34px;
+		z-index: 5;
+	}
+}
+@media screen and (max-width: 991px) {
+	.rtl .reservartioARCircle {
+		width: 100%;
+		background: #fff;
+		height: 20px;
+		max-width: 20px;
+		position: relative;
+		border-radius: 50%;
+		border: 3px solid #ff5a5f;
+		right: -37px;
+		top: 54px;
+		z-index: 5;
+	}
+}
+@media screen and (max-width: 767px) {
+    .rtl .responsiveAvatarSectionAR {
+		text-align: right;
+		margin-bottom: 8px;
+	}
+	.rtl .responsiveAvatarImgAR {
+		display: inline-block;
+		width: 20%;
+		float: left;
+		text-align: center;
+	}
+}
+.rtl .avatarWrapperAR {
+    margin-right: 0px;
+    margin-left: 3px;
+}
+.rtl .ViewprofilBg::after {
+    background: #f5f5f5 !important;
+}
+.rtl .spaceRight2AR {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.rtl .payOutSpace {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.rtl .formSelectAR {
+    padding: 10px 10px 10px 32px !important;
+    background-position: 2% 7px !important;
+}
+.rtl .exittingCircle {
+    right: 13px;
+    left: auto;
+}
+.rtl .exitingBorderLine::after {
+    left: 25px;
+    right: auto;
+}
+.rtl .availableRTl{
+    margin-left: 5px;
+}
+.rtl .firstBtnRTL{
+    margin-left: 10px !important;
+}
+.rtl .ql-snow .ql-picker-label{
+    padding-right: 20px;
+}
+.rtl .languageIconRTL{
+    margin-left: 3px;
+}
+.rtl .languageIconRTLAdmin{
+    margin-left: 6px;
+}
+.rtl .adminstyle table select {
+    padding: 5px 10px 5px 32px;
+    background-position: 11% 11px;
+}
+@media screen and (max-width: 1199px) {
+    .rtl .exittingCircle {
+      right: 14px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rtl .exittingCircle {
+      right: -37px;
+    }
+}
+.rtl .prviewLinkAR {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+@media screen and (max-width: 767px) {
+    .rtl .prviewLinkAR {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+}
+.rtl .startViewAR {
+    float: right;
+}
+.rtl .pullRightHeaderAR  {
+    float: right !important;
+} 
+.rtl .pullLeftHeaderAR  {
+    float: left !important;
+} 
+.rtl .listHeaderAR .navbar-nav>li>a {
+    border-right: 1px solid #dce0e0 !important;
+    border-left: 0 !important;
+}
+.rtl .pagecontentAR {
+    margin-left: 0;
+    margin-right: 270px;
+}
+.rtl .listContentAR {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.rtl .adminFooterAR {
+    margin-left: 0px;
+    margin-right: 250px;
+}
+.rtl .listStyleRtl{
+    padding-right: 0;
+}
+@media screen and (max-width: 767px) {
+    .rtl .adminFooterAR {
+        margin-right: 0px;
+    }
+    .rtl .pagecontentAR {
+        margin-right: 0px;
+    }
+}
+
+.rtl .commonAdminSelect {
+    padding: 10px 10px 10px 45px;
+    background-position: 2% 7px;
+}
+.rtl .commonFloatLeft {
+    float:  left;
+}
+.rtl .exportLinkImgCommon {
+    margin-left: 0px;
+    margin-right: 12px
+}
+@media screen and (max-width: 991px) {
+    .rtl .commonFloatLeft {
+        float:  none;
+    }
+}
+.rtl .adminDelete {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.rtl .searchInputControlAR {
+    background-position: 2% 50% !important;
+    padding: 10px 30px 10px 0px;
+}
+.rtl .ql-editor:not(.frontend) {
+    text-align: right !important;
+}
+.rtl .inputPaddingAR {
+    background-position: 2%;
+}
+.rtl .homeDateAR .DateInput:first-child .DateInput__display-text,
+.homeDateAR .DateInput:first-child .DateInput_input {
+	padding-right:0px !important;
+}
+.rtl .searchBtnContainerAr {
+    left: 25px;
+    right: auto;
+}
+.rtl .homeLocationSearchFormAR .geosuggest__input {
+    padding: 8px 0px 8px 55px!important;
+}
+.rtl .GridCollapseAr .GridColAr:nth-child(4) {
+    left: 0;
+    right: auto;
+}
+.rtl .GridCollapseAr .GridColAr:nth-child(5) {
+    left: 0;
+    right: auto;
+}
+.rtl .GridCollapseAr .GridColAr {
+    width: 25%;
+    padding: 5px;
+  }
+.rtl .GridCollapseAr .GridColAr:nth-child(3) {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 25%;
+}  
+.rtl .coverulAr li:before{
+    margin-left: 12px;
+    margin-right: -40px
+}
+.rtl .floatLeftAR {
+    float: left !important;
+}
+.rtl .cookiBtn {
+    float: left;
+}
+.rtl .guestReuireCheckRtl {
+    margin: 0px 0px 5px 10px;
+}
+.rtl .rtlBookText {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.rtl .calBtnRtl {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.rtl .saveRightRtl {
+    float: right !important;
+}
+.rtl .rc-pagination-jump-next {
+    float: right;
+}
+.rtl .faqRtl {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.rtl .DateRangePicker_picker__directionRight {
+    right: 0;
+    top: 56px !important;
+    z-index: 2;
+}
+.rtl .BecomeCalendar .DayPicker-Footer {
+    right: auto;
+    left: 0;
+}
+.rtl .BecomeCalendar .DayPicker-NavBar {
+    left: 10px;
+    right: 0;
+}
+@-moz-document url-prefix() { 
+    .rtl .BecomeCalendar .DayPicker-NavBar {
+        left: -99px;
+        right: 0;
+    }
+  }
+.rtl .BecomeCalendar .DayPicker-Caption {
+    left: 55px;
+    right:0px;
+}
+.rtl .faqImageRtl{
+    margin-left: 5px;
+}
+.rtl .requestBookBtn{
+    margin-right: 10px;
+}
+.rtl .avatarWidthPaymentRTL{
+    padding-left: 15px;
+}
+.rtl .trashIconNewRTL{
+    left: 25px;
+    right: auto;
+}
+.rtl .rightTopBannerRTL{
+    padding: 0 !important;
+}
+.rtl .searchSelectRTL{
+    margin-right: 0;
+}
+.rtl .tableCellRTL:not(first-child) {
+    border-right: inherit;
+}
+@media screen and (max-width: 767px) {
+    .rtl .sliderContentAR {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+    .rtl .homeTypeIconRtl{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .rtl .searchMapSectionRtl {
+        right: auto;
+        left: 0;
+    }
+    .rtl .commonListingBg .panel-body {
+        padding: 15px;
+    }
+     .rtl .rc-pagination-item {
+        margin-bottom: 5px;
+    }
+    .rtl .rc-pagination-next {
+        float: right;
+    }
+    .rtl .responsiveTextAlignRtl{
+        text-align: right;
+    }
+    .rtl .homeSlickSlider{
+        direction: ltr;
+    }
+    .rtl .resultsContainerRtl {
+        padding: 5px 5px 10px 6px;
+    }
+    .rtl .searchFilterCloseIconRtl{
+        text-align: right;
+    }
+    .rtl .guestClearRtl{
+        text-align: left;
+    }
+    .rtl .firstBtnRTL{
+        margin-bottom: 10px !important;
+    }
+    .rtl .form-control{
+        padding: 10px 10px 10px 10px;
+    }
+    .rtl .cardNumberRtlTwo {
+        padding: 10px 22px 0 0px;
+    }
+    .rtl .textAlignLeftRtlEdit{
+        text-align: right;
+    }
+    .rtl .searchFilter .CalendarMonth {
+        padding: 0 10px !important;
+    }
+    .rtl .DayPickerNavigation_leftButton__horizontalDefault {
+        left: 17px !important;
+    }
+    .rtl .NewResponsiveTable table td {
+        text-align: right;
+    }
+    .rtl .NewResponsiveTable a {
+        text-align: right;
+    }	
+    .rtl .shareIconRtl {
+		float: none;
+    }
+    .rtl .DateRangePicker_picker {
+        background-color: transparent;
+    }
+
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .rtl .textColumnRtl{
+        padding-left: 10px;
+        padding-right: 0px;
+     }
+}
+@media screen and (max-width: 1170px) {
+    .rtl .seeAllBtnAR {
+        position: absolute;
+        left: 0;
+        right: auto;
+    }
+}
+@media (min-width: 768px) {
+    .rtl .searchHeaderAR {
+        float: right !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .rtl .floatLeftAR {
+        float: none !important;
+    }
+    .rtl .navbar-header {
+        float: none !important;
+    }
+    .rtl .navbar-nav>li {
+        float: none !important;
+    }
+    .rtl .navbar-default .navbar-nav {
+        overflow-y: inherit;
+    }
+    .rtl .navbar-right:last-child {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .rtl .navbar-default .navbar-nav>li {
+        padding: 0px 0px 0px 0px;
+    }
+    .rtl .breakPointTab {
+        display: none !important;
+    }
+    .rtl .navbar-brand{
+        float: right;
+    }
+    .rtl .hamburgerButton {
+        left: 15px;
+        right: auto;
+    }
+    .rtl .brandBorderRtl{
+        float: right;
+        border-left: 1px solid #dce0e0;
+        border-right: inherit;
+    }
+    .rtl .exitToggleRtl{
+        float: left !important;
+        padding: 0px 0 0px 0px;
+    }
+   .rtl .bookItPanelRtl{
+    text-align: right;
+   }
+   .rtl .availabilityMobile .DayPicker__horizontal {
+    right: -28px;
+}
+.rtl .rentAllAdminHeader .navbar-header {
+    float: right !important;
+}
+.rtl .rentAllAdminHeader .navbar-nav>li {
+    float: right !important;
+}
+.rtl .listHeaderAR .navbar-toggle {
+    float: right;
+}
+}

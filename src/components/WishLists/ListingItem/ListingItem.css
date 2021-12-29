@@ -1,0 +1,76 @@
+@import '../../helpers.css';
+/** Common **/
+.textEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/** Common **/
+/* List Item - Start **/
+.listItemContainer {
+	position: relative;
+}
+.listInfoLink {
+	cursor: pointer;
+	display: block;
+}
+.infoText {
+	color: #484848;
+	margin: 0px;
+	word-wrap: break-word;
+	line-height: 18px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+}
+.infoPrice {
+	font-size: 15px;
+}
+.infoReview {
+	font-size: 12px;
+}
+.infoTitle {
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+.infoDesc {
+	font-weight: 200;
+	font-size: 14px;
+	color: #767676;
+}
+.listingInfo {
+	word-wrap: break-word;
+	font-size: 11px;
+	line-height: 14px;
+	letter-spacing: normal;
+	color: #A02F18;
+	font-weight: 800;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.infoSpace {
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+.reviewStar {
+	display: block;
+	position: relative;
+}
+.reviewText {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	vertical-align: top;
+}
+.displayInline {
+	display: inline;
+}
+.displayInlineBlock {
+	display: inline-block;
+}
+.instantIcon {
+	color: #ffb400;
+	height: 16px;
+	width: 16px;
+}

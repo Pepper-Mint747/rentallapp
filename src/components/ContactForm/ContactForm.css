@@ -1,0 +1,104 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+.formGroup {
+	margin-bottom: 18px;
+}
+.captionText {
+	font-size: 24px;
+	color: #767676;
+	font-weight: 700;
+	font-size: 30px;
+}
+.labelText {
+	font-size: 16px;
+	color: #767676;
+	margin: 6px 0px;
+	line-height: 1.43;
+	font-weight: 700;
+}
+.overFlowHidden {
+	overflow: hidden;
+}
+.formContainerHeader {
+	padding: 10px 15px;
+	width: 100%;
+	width: 100%;
+	position: relative;
+}
+.formContainer {
+	width: 100%;
+	position: relative;
+	height: auto;
+	padding: 15px;
+}
+.backgroundOne {
+	background: url("./mail.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundTwo {
+	background: url("./avatar.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundThree {
+	background: url("./call.png") no-repeat;
+	background-position: 98% 50%;
+}
+.backgroundFour {
+	background: url("./edit.png") no-repeat;
+	background-position: 98% 20%;
+}
+.marginTop {
+	margin: 50px 0 0 0;
+}
+.formBackground {
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+	background: #ffffff;
+	border-radius: 4px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.contactTitle {
+	font-weight: 700;
+	color: #767676;
+	text-align: center;
+	font-size: 36px;
+}
+.addressText {
+	color: #767676;
+}
+.linkText {
+	font-size: 18px;
+	text-decoration: none;
+	color: var(--btn-secondary-bg) !important
+}
+.subTitleText {
+	font-size: 24px;
+}
+.alignCenter {
+	text-align: center;
+}
+.mailIcon {
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+	backface-visibility: hidden;
+	min-height: 100px;
+	max-height: 100%;
+}
+.iconMargin {
+	margin-bottom: 24px;
+}
+@media screen and (max-width: 767px) {
+	.contactTitle {
+		font-weight: 700;
+		color: #767676;
+		text-align: center;
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.formGroup {
+		margin-bottom: 6px;
+	}
+}

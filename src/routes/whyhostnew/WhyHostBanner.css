@@ -1,0 +1,115 @@
+.TopBannerHeader {
+	color: #fff;
+	position: relative;
+	padding-bottom: 10px;
+	min-height: 600px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.bannerTitle {
+	font-size: 45px;
+	letter-spacing: -0.8px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.button {
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	background: #ffffff;
+	color: #484848;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 1.3333333;
+	cursor: pointer;
+	border-width: 2px !important;
+}
+.button:hover,
+.button:focus,
+.button:active,
+.button:active:hover,
+.button:active:focus {
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: #484848;
+}
+.btnPrimaryBorder {
+	border-color: #ffffff;
+	color: #ffffff;
+	background-color: transparent;
+	border-width: 2px !important;
+}
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+	border-color: #ffffff;
+	color: #ffffff;
+	background-color: transparent;
+}
+.linkButton {
+	text-decoration: none;
+	padding: 6px 12px;
+}
+.linkButton:hover,
+.linkButton:focus,
+.linkButton:active,
+.linkButton:active:hover,
+.linkButton:active:focus {
+	border-color: #ffffff;
+	color: #ffffff;
+	background-color: transparent;
+	text-decoration: none;
+}
+.buttonWidth {
+	max-width: 500px;
+}
+.noPadding {
+	padding: 0px;
+}
+.displayFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.btnRight {
+	margin-left: 20px;
+}
+.responsiveMargin {
+	margin-left: 10%;
+}
+@media(max-width:991px) {
+	.TopBannerHeader {
+		justify-content: center;
+	}
+	.responsiveMargin {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.smSpace {
+		margin-bottom: 12px;
+	}
+	.smPadding {
+		padding: 0px;
+	}
+	.TopBannerHeader {
+		min-height: 400px;
+	}
+	.bannerSubTitle {
+		font-size: 18px;
+	}
+}
+@media(max-width:500px) {
+	.displayFlex {
+		flex-direction: column;
+	}
+	.btnRight {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+}
